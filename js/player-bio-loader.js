@@ -2,7 +2,7 @@
 import {PLAYERS} from '../data/league.js?v=0.6.36';
 const clean=s=>(s||'').replace(/\s+/g,' ').trim();
 const norm=s=>clean(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/gi,'').toLowerCase();
-const byName=new Map([...PLAYERS,...BOS,...BKN,...CHA,...CHI,...CLE,...DAL,...DEN,...DET,...GSW,...HOU,...IND,...LAC,...LAL,...MEM,...MIA,...MIL,...MIN,...NOP,...NYK,...OKC,...ORL,...PHI,...PHX,...POR,...SAC].map(p=>[norm(p.name),p]));
+const byName=new Map([...PLAYERS,...BOS,...BKN,...CHA,...CHI,...CLE,...DAL,...DEN,...DET,...GSW,...HOU,...IND,...LAC,...LAL,...MEM,...MIA,...MIL,...MIN,...NOP,...NYK,...OKC,...ORL,...PHI,...PHX,...POR,...SAC,...SAS,...TOR,...UTA,...WAS].map(p=>[norm(p.name),p]));
 const STATIC={
  'anthonydavis':{jersey:'23',weight:'253 lb',birthdate:'March 11, 1993',country:'USA',school:'Kentucky',draft:'2012 R1 Pick 1',experience:'14 Years'},
  'alexsarr':{jersey:'20',weight:'205 lb',birthdate:'April 26, 2005',country:'France',school:'Perth',draft:'2024 R1 Pick 2',experience:'2 Years'},
@@ -447,6 +447,71 @@ Object.assign(TEAM_STATIC,{
  'daeqwonplowden':{jersey:"29",weight:"215 lb",birthdate:"August 29, 1998",school:"Bowling Green",experience:"2 Years"},
  'dylancardwell':{jersey:"44",weight:"250 lb",birthdate:"December 16, 2001",school:"Auburn",experience:"1 Year"},
  'maximeraynaud':{jersey:"7",weight:"237 lb",birthdate:"April 7, 2003",school:"Stanford",experience:"1 Year",draft:"2025 R2 Pick 42"}
+});
+
+Object.assign(TEAM_STATIC,{
+ 'jordanmclaughlin':{jersey:"11",weight:"185 lb",birthdate:"April 9, 1996",school:"USC",experience:"7 Years"},
+ 'victorwembanyama':{jersey:"1",weight:"235 lb",birthdate:"January 4, 2004",school:"Metropolitans 92",experience:"3 Years",draft:"2023 R1 Pick 1"},
+ 'dylanharper':{jersey:"2",weight:"215 lb",birthdate:"March 2, 2006",school:"Rutgers",experience:"1 Year",draft:"2025 R1 Pick 2"},
+ 'keldonjohnson':{jersey:"0",weight:"220 lb",birthdate:"October 11, 1999",school:"Kentucky",experience:"7 Years",draft:"2019 R1 Pick 29"},
+ 'deaaronfox':{jersey:"4",weight:"185 lb",birthdate:"December 20, 1997",school:"Kentucky",experience:"9 Years",draft:"2017 R1 Pick 5"},
+ 'stephoncastle':{jersey:"5",weight:"210 lb",birthdate:"November 1, 2004",school:"Connecticut",experience:"2 Years",draft:"2024 R1 Pick 4"},
+ 'lukekornet':{jersey:"40",weight:"250 lb",birthdate:"July 15, 1995",school:"Vanderbilt",experience:"9 Years"},
+ 'carterbryant':{jersey:"11",weight:"214 lb",birthdate:"November 26, 2005",school:"Arizona",experience:"1 Year",draft:"2025 R1 Pick 14"},
+ 'jaydenquaintance':{jersey:"21",weight:"250 lb",birthdate:"July 11, 2007",school:"Kentucky",experience:"Rookie",draft:"2026"},
+ 'tobiasharris':{jersey:"12",weight:"226 lb",birthdate:"July 15, 1992",school:"Tennessee",experience:"15 Years",draft:"2011 R1 Pick 19"},
+ 'devinvassell':{jersey:"24",weight:"200 lb",birthdate:"August 23, 2000",school:"Florida State",experience:"6 Years",draft:"2020 R1 Pick 11"},
+ 'davidjonesgarcia':{jersey:"18",weight:"210 lb",birthdate:"November 24, 2001",school:"Memphis",experience:"1 Year"},
+ 'julianchampagnie':{jersey:"30",weight:"217 lb",birthdate:"June 29, 2001",school:"St. John's",experience:"4 Years"},
+ 'harrisonbarnes':{jersey:"40",weight:"225 lb",birthdate:"May 30, 1992",school:"North Carolina",experience:"14 Years",draft:"2012 R1 Pick 7"},
+ 'kawhileonard':{jersey:"2",weight:"225 lb",birthdate:"June 29, 1991",school:"San Diego State",experience:"15 Years",draft:"2011 R1 Pick 15"},
+ 'scottiebarnes':{jersey:"4",weight:"237 lb",birthdate:"August 1, 2001",school:"Florida State",experience:"5 Years",draft:"2021 R1 Pick 4"},
+ 'immanuelquickley':{jersey:"5",weight:"190 lb",birthdate:"June 17, 1999",school:"Kentucky",experience:"6 Years",draft:"2020 R1 Pick 25"},
+ 'rjbarrett':{jersey:"9",weight:"214 lb",birthdate:"June 14, 2000",school:"Duke",experience:"7 Years",draft:"2019 R1 Pick 3"},
+ 'kyleanderson':{jersey:"1",weight:"230 lb",birthdate:"September 20, 1993",school:"UCLA",experience:"12 Years",draft:"2014 R1 Pick 30"},
+ 'jakobewalter':{jersey:"14",weight:"198 lb",birthdate:"September 4, 2004",school:"Baylor",experience:"2 Years",draft:"2024 R1 Pick 19"},
+ 'jakobpoeltl':{jersey:"19",weight:"245 lb",birthdate:"October 15, 1995",school:"Utah",experience:"10 Years",draft:"2016 R1 Pick 9"},
+ 'allengraves':{jersey:"11",weight:"220 lb",birthdate:"June 13, 2006",school:"Duke",experience:"Rookie",draft:"2026"},
+ 'jamalshead':{jersey:"23",weight:"201 lb",birthdate:"July 24, 2002",school:"Houston",experience:"2 Years",draft:"2024 R2 Pick 45"},
+ 'collinmurrayboyles':{jersey:"12",weight:"245 lb",birthdate:"June 10, 2005",school:"South Carolina",experience:"1 Year",draft:"2025 R1 Pick 9"},
+ 'traycejacksondavis':{jersey:"32",weight:"245 lb",birthdate:"February 22, 2000",school:"Indiana",experience:"3 Years",draft:"2023 R2 Pick 57"},
+ 'chuckyhepburn':{jersey:"24",weight:"190 lb",birthdate:"February 9, 2003",school:"Louisville",experience:"1 Year"},
+ 'alijahmartin':{jersey:"15",weight:"210 lb",birthdate:"December 26, 2001",school:"Florida",experience:"1 Year"},
+ 'jamisonbattle':{jersey:"77",weight:"220 lb",birthdate:"May 10, 2001",school:"Ohio State",experience:"2 Years"},
+ 'kylefilipowski':{jersey:"22",weight:"250 lb",birthdate:"November 7, 2003",school:"Duke",experience:"2 Years",draft:"2024 R2 Pick 32"},
+ 'blakehinson':{jersey:"26",weight:"230 lb",birthdate:"December 26, 1999",school:"Pittsburgh",experience:"1 Year"},
+ 'keyontegeorge':{jersey:"3",weight:"185 lb",birthdate:"November 8, 2003",school:"Baylor",experience:"3 Years",draft:"2023 R1 Pick 16"},
+ 'tamarbates':{jersey:"3",weight:"202 lb",birthdate:"February 13, 2003",school:"Missouri",experience:"Rookie",draft:"2026"},
+ 'isaiahcollier':{jersey:"13",weight:"210 lb",birthdate:"October 8, 2004",school:"USC",experience:"2 Years",draft:"2024 R1 Pick 29"},
+ 'joshgreen':{jersey:"10",weight:"200 lb",birthdate:"November 16, 2000",school:"Arizona",experience:"6 Years",draft:"2020 R1 Pick 18"},
+ 'svimykhailiuk':{jersey:"19",weight:"205 lb",birthdate:"June 10, 1997",school:"Kansas",experience:"8 Years",draft:"2018 R2 Pick 47"},
+ 'jaxsonhayes':{jersey:"11",weight:"220 lb",birthdate:"May 23, 2000",school:"Texas",experience:"7 Years",draft:"2019 R1 Pick 8"},
+ 'mobamba':{jersey:"5",weight:"231 lb",birthdate:"May 12, 1998",school:"Texas",experience:"8 Years",draft:"2018 R1 Pick 6"},
+ 'acebailey':{jersey:"19",weight:"200 lb",birthdate:"August 13, 2006",school:"Rutgers",experience:"1 Year",draft:"2025 R1 Pick 5"},
+ 'jarenjacksonjr':{jersey:"13",weight:"242 lb",birthdate:"September 15, 1999",school:"Michigan State",experience:"8 Years",draft:"2018 R1 Pick 4"},
+ 'joshokogie':{jersey:"2",weight:"213 lb",birthdate:"September 1, 1998",school:"Georgia Tech",experience:"8 Years",draft:"2018 R1 Pick 20"},
+ 'darrynpeterson':{jersey:"22",weight:"195 lb",birthdate:"January 17, 2007",school:"Kansas",experience:"Rookie",draft:"2026"},
+ 'laurimarkkanen':{jersey:"23",weight:"240 lb",birthdate:"May 22, 1997",school:"Arizona",experience:"9 Years",draft:"2017 R1 Pick 7"},
+ 'treyalexander':{jersey:"23",weight:"190 lb",birthdate:"May 2, 2003",school:"Creighton",experience:"2 Years"},
+ 'bricesensabaugh':{jersey:"28",weight:"235 lb",birthdate:"October 30, 2003",school:"Ohio State",experience:"3 Years",draft:"2023 R1 Pick 28"},
+ 'jusufnurkic':{jersey:"27",weight:"290 lb",birthdate:"August 23, 1994",school:"Cedevita",experience:"12 Years",draft:"2014 R1 Pick 16"},
+ 'harrisoningram':{jersey:"55",weight:"235 lb",birthdate:"November 27, 2002",school:"North Carolina",experience:"2 Years",draft:"2024 R2 Pick 48"},
+ 'felixokpara':{jersey:"34",weight:"235 lb",birthdate:"March 12, 2004",school:"Tennessee",experience:"Rookie",draft:"2026"},
+ 'bilalcoulibaly':{jersey:"0",weight:"195 lb",birthdate:"July 26, 2004",school:"Metropolitans 92",experience:"3 Years",draft:"2023 R1 Pick 7"},
+ 'tristanvukcevic':{jersey:"00",weight:"225 lb",birthdate:"March 11, 2003",school:"Partizan",experience:"3 Years",draft:"2023 R2 Pick 42"},
+ 'traeyoung':{jersey:"11",weight:"164 lb",birthdate:"September 19, 1998",school:"Oklahoma",experience:"8 Years",draft:"2018 R1 Pick 5"},
+ 'ajdybantsa':{jersey:"3",weight:"225 lb",birthdate:"January 29, 2007",school:"BYU",experience:"Rookie",draft:"2026"},
+ 'jamirwatkins':{jersey:"7",weight:"210 lb",birthdate:"July 11, 2001",school:"Florida State",experience:"1 Year"},
+ 'deandreayton':{jersey:"5",weight:"250 lb",birthdate:"July 23, 1998",school:"Arizona",experience:"8 Years",draft:"2018 R1 Pick 1"},
+ 'bubcarrington':{jersey:"8",weight:"195 lb",birthdate:"July 21, 2005",school:"Pittsburgh",experience:"2 Years",draft:"2024 R1 Pick 14"},
+ 'justinchampagnie':{jersey:"9",weight:"206 lb",birthdate:"June 29, 2001",school:"Pittsburgh",experience:"5 Years"},
+ 'trejohnson':{jersey:"12",weight:"190 lb",birthdate:"March 7, 2006",school:"Texas",experience:"1 Year",draft:"2025 R1 Pick 6"},
+ 'kyshawngeorge':{jersey:"18",weight:"209 lb",birthdate:"December 12, 2003",school:"Miami",experience:"2 Years",draft:"2024 R1 Pick 24"},
+ 'khrismiddleton':{jersey:"22",weight:"222 lb",birthdate:"August 12, 1991",school:"Texas A&M",experience:"14 Years",draft:"2012 R2 Pick 39"},
+ 'alexsarr':{jersey:"20",weight:"205 lb",birthdate:"April 26, 2005",school:"Perth Wildcats",experience:"2 Years",draft:"2024 R1 Pick 2"},
+ 'tremann':{jersey:"23",weight:"178 lb",birthdate:"February 3, 2001",school:"Florida",experience:"5 Years",draft:"2021 R1 Pick 18"},
+ 'anthonydavis':{jersey:"3",weight:"253 lb",birthdate:"March 11, 1993",school:"Kentucky",experience:"14 Years",draft:"2012 R1 Pick 1"},
+ 'willriley':{jersey:"7",weight:"195 lb",birthdate:"February 10, 2006",school:"Illinois",experience:"1 Year",draft:"2025 R1 Pick 21"}
 });
 
 function factsFor(name){const p=byName.get(norm(name));const extra={...(STATIC[norm(name)]||{}),...(TEAM_STATIC[norm(name)]||{})};if(!p&&!Object.keys(extra).length)return null;return {position:p?.pos,height:p?.height,age:p?.age,experience:extra.experience||(Number.isFinite(p?.exp)?`${p.exp} Year${p.exp===1?'':'s'}`:''),...extra}}
