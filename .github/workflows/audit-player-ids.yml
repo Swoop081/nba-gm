@@ -1,0 +1,39 @@
+name: NBA Player ID Audit
+on:
+  push:
+    paths:
+      - 'scripts/audit-player-ids.mjs'
+      - '.github/workflows/audit-player-ids.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Audit and correct every stored player ID
+        id: audit
+        continue-on-error: true
+        run: node scripts/audit-player-ids.mjs
+      - name: Commit corrections and audit report
+        run: |
+          git config user.name "nba-gm-audit"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/teams data/league.js PLAYER-ID-AUDIT.txt
+          if git diff --cached --quiet; then
+            echo "No corrections required"
+          else
+            git commit -m "Audit and correct NBA.com player IDs league-wide"
+            git push
+          fi
+      - name: Fail if unresolved IDs remain
+        if: steps.audit.outcome == 'failure'
+        run: |
+          cat PLAYER-ID-AUDIT.txt
+          exit 1
