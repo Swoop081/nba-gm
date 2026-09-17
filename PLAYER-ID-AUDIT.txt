@@ -1,29 +1,10 @@
 NBA PLAYER ID AUDIT
-checked=518
-corrected=141
-unresolved=16
-conflictingDuplicateIds=4
+checked=516
+corrected=5
+removedStaleRosterEntries=0
+unresolved=0
+conflictingDuplicateIds=0
 
 UNRESOLVED
-data/teams/boston.js :: Ron Harper Jr. :: stored 1631199 :: matches 166,1631199
-data/teams/cleveland.js :: Khalifa Diop :: stored 1631215 :: matches NONE
-data/teams/golden-state.js :: Gary Payton II :: stored 1627780 :: matches 56,1627780
-data/teams/golden-state.js :: Deivon Smith :: stored 1643090 :: matches NONE
-data/teams/houston.js :: Jabari Smith Jr. :: stored 1631095 :: matches 2074,1631095
-data/teams/houston.js :: Rafael Castro :: stored 1643662 :: matches NONE
-data/teams/indiana.js :: Larry Nance Jr. :: stored 1628385 :: matches 77685,1626204
-data/teams/miami.js :: Kevin Porter Jr. :: stored 1629645 :: matches 77876,1629645
-data/teams/miami.js :: Tim Hardaway Jr. :: stored 203501 :: matches 896,203501
-data/teams/miami.js :: J'Vonne Hadley :: stored 1643530 :: matches NONE
-data/teams/milwaukee.js :: Kevin Porter Jr. :: stored 1628997 :: matches 77876,1629645
-data/teams/milwaukee.js :: Gary Trent Jr. :: stored 1629656 :: matches 718,1629018
-data/teams/new-orleans.js :: Malik Dia :: stored 1642862 :: matches NONE
-data/teams/new-orleans.js :: Aziz Bandaogo :: stored 1643619 :: matches NONE
-data/teams/philadelphia.js :: Saint Thomas :: stored 1643148 :: matches NONE
-data/teams/utah.js :: Jaren Jackson Jr. :: stored 1628991 :: matches 1114,1628991
 
 CONFLICTING DUPLICATES
-1642862: Liam McNeeley (charlotte.js) | Malik Dia (new-orleans.js)
-1628997: Caleb Martin (dallas.js) | Kevin Porter Jr. (milwaukee.js)
-1629656: Quentin Grimes (la-lakers.js) | Gary Trent Jr. (milwaukee.js)
-1643530: J'Vonne Hadley (miami.js) | Aday Mara (oklahoma-city.js)
