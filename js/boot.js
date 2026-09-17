@@ -1,4 +1,4 @@
-const VERSION='0.5.6';
+const VERSION='0.5.7';
 const versionEl=document.querySelector('[data-version]');if(versionEl)versionEl.textContent=`VERSION ${VERSION}`;
 const bust=()=>`${location.pathname}${location.search?'&':'?'}refresh=${Date.now()}`;
 async function forceUpdateCheck(){
