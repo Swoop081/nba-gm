@@ -1,0 +1,1 @@
+`nba-gm-icon.png` is the supplied NBA GM artwork used for the launch screen and installed app icon.
