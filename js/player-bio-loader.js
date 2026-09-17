@@ -6,7 +6,24 @@ const byName=new Map(PLAYERS.map(p=>[norm(p.name),p]));
 const STATIC={
  'anthonydavis':{jersey:'23',weight:'253 lb',birthdate:'March 11, 1993',country:'USA',school:'Kentucky',draft:'2012 R1 Pick 1',experience:'14 Years'},
  'alexsarr':{jersey:'20',weight:'205 lb',birthdate:'April 26, 2005',country:'France',school:'Perth',draft:'2024 R1 Pick 2',experience:'2 Years'},
- 'bubcarrington':{jersey:'7',weight:'195 lb',birthdate:'July 21, 2005',country:'USA',school:'Pittsburgh',draft:'2024 R1 Pick 14',experience:'2 Years'}
+ 'bubcarrington':{jersey:'7',weight:'195 lb',birthdate:'July 21, 2005',country:'USA',school:'Pittsburgh',draft:'2024 R1 Pick 14',experience:'2 Years'},
+ 'jalenjohnson':{jersey:'1',weight:'219 lb',birthdate:'December 18, 2001',country:'USA',school:'Duke',draft:'2021 R1 Pick 20',experience:'5 Years'},
+ 'nickeilalexanderwalker':{jersey:'7',weight:'205 lb',birthdate:'September 2, 1998',country:'Canada',school:'Virginia Tech',draft:'2019 R1 Pick 17',experience:'7 Years'},
+ 'cjmccollum':{jersey:'3',weight:'190 lb',birthdate:'September 19, 1991',country:'USA',school:'Lehigh',draft:'2013 R1 Pick 10',experience:'13 Years'},
+ 'dysondaniels':{jersey:'5',weight:'199 lb',birthdate:'March 17, 2003',country:'Australia',school:'NBA G League Ignite',draft:'2022 R1 Pick 8',experience:'4 Years'},
+ 'onyekaokongwu':{jersey:'17',weight:'240 lb',birthdate:'December 11, 2000',country:'USA',school:'USC',draft:'2020 R1 Pick 6',experience:'6 Years'},
+ 'luguentzdort':{jersey:'0',weight:'220 lb',birthdate:'April 19, 1999',country:'Canada / Haiti',school:'Arizona State',draft:'Undrafted 2019',experience:'7 Years'},
+ 'jocklandale':{jersey:'31',weight:'255 lb',birthdate:'October 25, 1995',country:'Australia',school:"Saint Mary's",draft:'Undrafted 2018',experience:'8 Years'},
+ 'buddyhield':{jersey:'8',weight:'220 lb',birthdate:'December 17, 1992',country:'Bahamas',school:'Oklahoma',draft:'2016 R1 Pick 6',experience:'10 Years'},
+ 'coreykispert':{jersey:'24',weight:'224 lb',birthdate:'March 3, 1999',country:'USA',school:'Gonzaga',draft:'2021 R1 Pick 15',experience:'5 Years'},
+ 'asanewell':{jersey:'14',weight:'220 lb',birthdate:'October 5, 2005',country:'USA',school:'Georgia',draft:'2025 R1 Pick 23',experience:'1 Year'},
+ 'mouhamedgueye':{jersey:'18',weight:'210 lb',birthdate:'November 9, 2002',country:'Senegal',school:'Washington State',draft:'2023 R2 Pick 39',experience:'3 Years'},
+ 'ryannembhard':{jersey:'19',weight:'180 lb',birthdate:'March 10, 2003',country:'Canada',school:'Gonzaga',experience:'1 Year'},
+ 'kingstonflemings':{jersey:'4',weight:'190 lb',birthdate:'January 3, 2007',country:'USA',school:'Houston',experience:'0 Years'},
+ 'jalenwilson':{jersey:'22',weight:'220 lb',birthdate:'November 4, 2000',country:'USA',school:'Kansas',experience:'3 Years'},
+ 'henriveesaar':{jersey:'13',weight:'225 lb',birthdate:'March 28, 2004',country:'Estonia',school:'North Carolina',draft:'2026 R2 Pick 52',experience:'0 Years'},
+ 'rayjdennis':{jersey:'0',weight:'180 lb',birthdate:'March 30, 2001',country:'USA',school:'Baylor',experience:'2 Years'},
+ 'keshongilbert':{jersey:'51',weight:'200 lb',birthdate:'June 30, 2003',country:'USA',school:'Iowa State',experience:'1 Year'}
 };
 function factsFor(name){const p=byName.get(norm(name));const extra=STATIC[norm(name)]||{};if(!p&&!Object.keys(extra).length)return null;return {position:p?.pos,height:p?.height,age:p?.age,experience:extra.experience||(Number.isFinite(p?.exp)?`${p.exp} Year${p.exp===1?'':'s'}`:''),...extra}}
 function render(hero,b){if(!b)return;const main=hero.closest('main');if(!main)return;let box=main.querySelector('.playerFacts');if(!box){box=document.createElement('section');box.className='playerFacts';hero.insertAdjacentElement('afterend',box)}const facts=[['POSITION',b.position],['HEIGHT',b.height],['AGE',Number.isFinite(b.age)?String(b.age):''],['JERSEY',b.jersey?`#${b.jersey}`:''],['WEIGHT',b.weight],['BIRTHDATE',b.birthdate],['COUNTRY',b.country],['LAST ATTENDED',b.school],['EXPERIENCE',b.experience],['DRAFT',b.draft]].filter(([,v])=>v);box.innerHTML=`<div class="playerFactsGrid">${facts.map(([k,v])=>`<div${k==='DRAFT'?' class="wideFact"':''}><span>${k}</span><b>${v}</b></div>`).join('')}</div>`}
