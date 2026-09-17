@@ -1,0 +1,21 @@
+import {simulateGame} from './sim-engine.js';
+import {SIM_PLAYERS} from './sim-rosters.js';
+
+const KEY='nba-gm-season-v1';
+const norm=s=>(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/gi,'').toLowerCase();
+let ratingsPromise;
+async function ratings(){if(!ratingsPromise)ratingsPromise=import('../data/2k27-ratings.js').then(m=>{const idx=new Map(Object.entries(m.RATINGS_2K27).map(([n,v])=>[norm(n),v]));return{raw:m.RATINGS_2K27,idx}});return ratingsPromise}
+async function rosters(){const r=await ratings();const teams={};for(const p of SIM_PLAYERS){const x=r.raw[p.name]||r.idx.get(norm(p.name));const q=x?{...p,rating2k:x.rating2k,ratings:x.ratings}:p;(teams[q.team]??=[]).push(q)}return teams}
+const emptyPlayer=name=>({name,gp:0,min:0,pts:0,fgm:0,fga:0,tpm:0,tpa:0,ftm:0,fta:0,orb:0,drb:0,reb:0,ast:0,stl:0,blk:0,tov:0,pf:0});
+export function loadSeason(){try{return JSON.parse(localStorage.getItem(KEY))}catch{return null}}
+export function saveSeason(s){localStorage.setItem(KEY,JSON.stringify(s));return s}
+export function resetSeason(){localStorage.removeItem(KEY)}
+export async function createSeason(){const rs=await rosters(),teams=Object.keys(rs).sort(),standings=Object.fromEntries(teams.map(t=>[t,{team:t,w:0,l:0,pf:0,pa:0}]));const schedule=[];let id=1;for(let round=0;round<2;round++)for(let i=0;i<teams.length;i++)for(let j=i+1;j<teams.length;j++){const flip=(i+j+round)%2===0;const home=flip?teams[i]:teams[j],away=flip?teams[j]:teams[i];schedule.push({id:id++,round:round+1,home,away,played:false})}return saveSeason({version:1,created:Date.now(),cursor:0,standings,schedule,players:{},games:[]})}
+function addPlayer(season,s){const p=season.players[s.name]||(season.players[s.name]=emptyPlayer(s.name));p.gp++;for(const k of ['min','pts','fgm','fga','tpm','tpa','ftm','fta','orb','drb','reb','ast','stl','blk','tov','pf'])p[k]+=s[k]||0}
+export async function simulateScheduledGame(season,gameId){season=season||loadSeason()||await createSeason();const game=season.schedule.find(g=>g.id===gameId)||season.schedule.find(g=>!g.played);if(!game||game.played)return season;const rs=await rosters();if(!rs[game.home]?.length||!rs[game.away]?.length)throw new Error(`Missing simulation roster: ${game.home} or ${game.away}`);const out=simulateGame(rs[game.home],rs[game.away]);game.played=true;game.homeScore=out.score.home;game.awayScore=out.score.away;game.overtime=out.overtime||0;const hs=season.standings[game.home],as=season.standings[game.away];hs.pf+=out.score.home;hs.pa+=out.score.away;as.pf+=out.score.away;as.pa+=out.score.home;if(out.score.home>out.score.away){hs.w++;as.l++}else{as.w++;hs.l++}for(const s of out.box)addPlayer(season,s);season.games.push({id:game.id,home:game.home,away:game.away,homeScore:out.score.home,awayScore:out.score.away,overtime:out.overtime||0,box:out.box});season.cursor=season.schedule.findIndex(g=>!g.played);if(season.cursor<0)season.cursor=season.schedule.length;return saveSeason(season)}
+export async function simulateNextGame(){return simulateScheduledGame(loadSeason())}
+export async function simulateGames(count=1){let s=loadSeason()||await createSeason();for(let i=0;i<count&&s.cursor<s.schedule.length;i++)s=await simulateScheduledGame(s);return s}
+export async function simulateFullSeason(){let s=loadSeason()||await createSeason();while(s.cursor<s.schedule.length)s=await simulateScheduledGame(s);return s}
+export function standings(season=loadSeason()){if(!season)return[];return Object.values(season.standings).sort((a,b)=>b.w-a.w||(b.pf-b.pa)-(a.pf-a.pa)).map((x,i)=>({...x,rank:i+1,gp:x.w+x.l,pct:x.w+x.l?x.w/(x.w+x.l):0,diff:x.pf-x.pa}))}
+export function playerSeasonStats(season=loadSeason()){if(!season)return[];return Object.values(season.players).map(p=>({...p,ppg:p.gp?p.pts/p.gp:0,rpg:p.gp?p.reb/p.gp:0,apg:p.gp?p.ast/p.gp:0,spg:p.gp?p.stl/p.gp:0,bpg:p.gp?p.blk/p.gp:0,mpg:p.gp?p.min/p.gp:0,fgPct:p.fga?p.fgm/p.fga:0,threePct:p.tpa?p.tpm/p.tpa:0,ftPct:p.fta?p.ftm/p.fta:0})).sort((a,b)=>b.ppg-a.ppg)}
+export function gameLog(season=loadSeason(),team=null){if(!season)return[];return team?season.games.filter(g=>g.home===team||g.away===team):season.games}
