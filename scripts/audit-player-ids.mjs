@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
+// Canonical league-wide NBA.com portrait ID audit.
 const ROOT=process.cwd();
 const norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[’‘]/g,"'").replace(/\./g,'').replace(/\s+(jr|sr|ii|iii|iv)$/i,'').replace(/[^a-z0-9]+/gi,' ').trim().toLowerCase();
 
