@@ -1,0 +1,22 @@
+name: NBA GM Simulation Calibration
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  calibrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run 10000-game calibration
+        run: node scripts/calibrate-sim.mjs 10000 | tee SIM-CALIBRATION.json
+      - name: Commit calibration results
+        run: |
+          git config user.name "nba-gm-calibration"
+          git config user.email "actions@users.noreply.github.com"
+          git add SIM-CALIBRATION.json
+          git commit -m "Record 10000-game simulation calibration" || exit 0
+          git push
