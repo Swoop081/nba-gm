@@ -1,0 +1,2 @@
+export const DATA_SOURCES={asOf:'2026-09-17',rosters:'NBA.com official team rosters + NBA transaction log',stats:'NBA.com 2025-26 regular-season traditional/advanced/player tracking',contracts:'Reported/official contract terms cross-checked against current team salary ledgers',ratingPolicy:'Game ratings are derived values, never represented as official NBA ratings.'};
+export const LEAGUE_FINANCE={season:'2026-27',salaryCap:164961000,tax:200428000,minimumTeamSalary:148465000,firstApron:209015000,secondApron:221686000,nonTaxMLE:15044000,taxMLE:6064000,roomMLE:9366000};
