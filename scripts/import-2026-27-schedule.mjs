@@ -1,0 +1,9 @@
+import fs from 'node:fs/promises';
+const SOURCE='https://fixturedownload.com/feed/json/nba-2026';
+const NBA_SOURCE='https://www.nba.com/news/2026-27-nba-regular-season-schedule';
+const map={'Atlanta Hawks':'ATL','Boston Celtics':'BOS','Brooklyn Nets':'BKN','Charlotte Hornets':'CHA','Chicago Bulls':'CHI','Cleveland Cavaliers':'CLE','Dallas Mavericks':'DAL','Denver Nuggets':'DEN','Detroit Pistons':'DET','Golden State Warriors':'GSW','Houston Rockets':'HOU','Indiana Pacers':'IND','LA Clippers':'LAC','Los Angeles Lakers':'LAL','Memphis Grizzlies':'MEM','Miami Heat':'MIA','Milwaukee Bucks':'MIL','Minnesota Timberwolves':'MIN','New Orleans Pelicans':'NOP','New York Knicks':'NYK','Oklahoma City Thunder':'OKC','Orlando Magic':'ORL','Philadelphia 76ers':'PHI','Phoenix Suns':'PHX','Portland Trail Blazers':'POR','Sacramento Kings':'SAC','San Antonio Spurs':'SAS','Toronto Raptors':'TOR','Utah Jazz':'UTA','Washington Wizards':'WAS'};
+const res=await fetch(SOURCE);if(!res.ok)throw new Error(`Schedule download failed: ${res.status}`);const raw=await res.json();
+const games=raw.filter(g=>map[g.HomeTeam]&&map[g.AwayTeam]).map((g,i)=>({id:i+1,date:g.DateUtc.slice(0,10),tipUtc:g.DateUtc,home:map[g.HomeTeam],away:map[g.AwayTeam],venue:g.Location||'',played:false})).sort((a,b)=>a.tipUtc.localeCompare(b.tipUtc));
+if(games.length<1200)throw new Error(`Expected NBA regular-season scale schedule; received ${games.length} mapped games`);
+const counts={};for(const g of games){counts[g.home]=(counts[g.home]||0)+1;counts[g.away]=(counts[g.away]||0)+1}const bad=Object.entries(counts).filter(([,n])=>n<80||n>82);if(bad.length)console.warn('Schedule counts requiring Cup/TBD review:',bad);
+const out={season:'2026-27',source:NBA_SOURCE,mirror:SOURCE,generated:new Date().toISOString(),games};await fs.mkdir('data',{recursive:true});await fs.writeFile('data/schedule-2026-27.json',JSON.stringify(out));console.log(`Wrote ${games.length} NBA games`);
