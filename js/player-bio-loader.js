@@ -2,7 +2,7 @@
 import {PLAYERS} from '../data/league.js?v=0.6.36';
 const clean=s=>(s||'').replace(/\s+/g,' ').trim();
 const norm=s=>clean(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/gi,'').toLowerCase();
-const byName=new Map(PLAYERS.map(p=>[norm(p.name),p]));
+const byName=new Map([...PLAYERS,...BOS,...BKN,...CHA,...CHI,...CLE].map(p=>[norm(p.name),p]));
 const STATIC={
  'anthonydavis':{jersey:'23',weight:'253 lb',birthdate:'March 11, 1993',country:'USA',school:'Kentucky',draft:'2012 R1 Pick 1',experience:'14 Years'},
  'alexsarr':{jersey:'20',weight:'205 lb',birthdate:'April 26, 2005',country:'France',school:'Perth',draft:'2024 R1 Pick 2',experience:'2 Years'},
@@ -108,7 +108,7 @@ const TEAM_STATIC={
  'peytonwatson':{jersey:"8",weight:"200 lb",birthdate:"September 11, 2002",school:"UCLA",experience:"4 Years",draft:"2022 R1 Pick 30"},
  'craigporterjr':{jersey:"9",weight:"180 lb",birthdate:"February 26, 2000",school:"Wichita State",experience:"3 Years"},
  'rileyminix':{jersey:"12",weight:"230 lb",birthdate:"September 22, 2000",school:"Morehead State",experience:"2 Years"},
- 'meeleekthomas':{jersey:"15",weight:"185 lb",birthdate:"August 6, 2006",school:"Arkansas",experience:"Rookie",draft:"2026 R2 Pick 34"},
+ 'meleekthomas':{jersey:"15",weight:"185 lb",birthdate:"August 6, 2006",school:"Arkansas",experience:"Rookie",draft:"2026 R2 Pick 34"},
  'jaylontyson':{jersey:"20",weight:"215 lb",birthdate:"December 2, 2002",school:"California",experience:"2 Years",draft:"2024 R1 Pick 20"},
  'tristanenaruna':{jersey:"21",weight:"220 lb",birthdate:"June 26, 2001",school:"Cleveland State",experience:"1 Year"},
  'tyreseproctor':{jersey:"24",weight:"185 lb",birthdate:"April 1, 2004",school:"Duke",experience:"1 Year",draft:"2025 R2 Pick 49"},
