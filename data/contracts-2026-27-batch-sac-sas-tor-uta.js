@@ -1,0 +1,14 @@
+// Verified 2026-27 contract audit batch: SAC, SAS, TOR, UTA.
+// USD millions. Basketball-Reference payroll snapshot, 18 Sep 2026.
+const C=(team,salary,years,guaranteed=null)=>({team,salary,years,guaranteed});
+export const CONTRACTS_BATCH={
+// Sacramento Kings
+'Zach LaVine':C('SAC',48.96738,1,48.96738),'Domantas Sabonis':C('SAC',45.472,2,94.08),"De'Andre Hunter":C('SAC',24.910714,1,24.910714),'Keegan Murray':C('SAC',24.137936,5,140),'Malik Monk':C('SAC',20.190035,2,20.190035),'Darius Acuff Jr.':C('SAC',8.02164,4,16.44456),'Precious Achiuwa':C('SAC',5.477,2,11.22785),'Nique Clifford':C('SAC',3.2634,3,3.2634),'Daeqwon Plowden':C('SAC',2.449421,2,5.113822),'Ben Simmons':C('SAC',2.449421,1,null),'Maxime Raynaud':C('SAC',2.150917,2,2.150917),
+// San Antonio Spurs
+"De'Aaron Fox":C('SAS',49.8,4,223.104),'Devin Vassell':C('SAS',27,3,78.652174),'Keldon Johnson':C('SAS',17.5,1,17.5),'Victor Wembanyama':C('SAS',16.868246,6,211.748246),'Tobias Harris':C('SAS',15.044,2,30.8402),'Julian Champagnie':C('SAS',13.888889,3,45),
+// Toronto Raptors
+'Scottie Barnes':C('TOR',41.75469,4,185.5764),'Brandon Ingram':C('TOR',40,2,40),'Immanuel Quickley':C('TOR',32.5,3,97.5),'RJ Barrett':C('TOR',29.616071,1,29.616071),'Jakob Poeltl':C('TOR',19.5,4,76.284),'Collin Murray-Boyles':C('TOR',6.64956,3,6.64956),
+// Utah Jazz
+'Jaren Jackson Jr.':C('UTA',49,4,151.5),'Lauri Markkanen':C('UTA',46.113154,3,149.474044),'Josh Green':C('UTA',14.679012,1,14.679012),'Darryn Peterson':C('UTA',13.19532,4,27.05064),'Jusuf Nurkic':C('UTA',10.576923,2,22),'Ace Bailey':C('UTA',9.52308,3,9.52308),'Keyonte George':C('UTA',6.563925,1,6.563925),'Jaxson Hayes':C('UTA',6,2,6),'Josh Okogie':C('UTA',6,2,6),'Brice Sensabaugh':C('UTA',4.862237,1,4.862237),'Svi Mykhailiuk':C('UTA',3.85,2,null),'Mo Bamba':C('UTA',3.286399,2,6.96839),'Kyle Filipowski':C('UTA',3,2,null),'Isaiah Collier':C('UTA',2.76396,2,2.76396),'Harrison Ingram':C('UTA',2.449421,1,2.449421)
+};
+export function applyAuditedBatchSacSasTorUta(p){const c=CONTRACTS_BATCH[p.name];if(!c||c.team!==p.team)return p;return{...p,contract:{...(p.contract||{}),salary:c.salary,years:c.years,guaranteed:c.guaranteed,type:p.contract?.type||'standard',verified:true}}}
