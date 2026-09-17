@@ -1,3 +1,4 @@
+import {applyAuditedBatchMinNopNykOkc} from './contracts-2026-27-batch-min-nop-nyk-okc.js';
 // Verified 2026-27 contract audit batch: LAL, MEM, MIA, MIL.
 // USD millions. Basketball-Reference payroll snapshot, 18 Sep 2026.
 const C=(team,salary,years,guaranteed=null)=>({team,salary,years,guaranteed});
@@ -11,4 +12,4 @@ export const CONTRACTS_BATCH={
 // Milwaukee Bucks
 'Tyler Herro':C('MIL',33,1,33),'Myles Turner':C('MIL',26.584164,3,54.434241),'Kyle Kuzma':C('MIL',20.345152,1,20.345152),'Gary Trent Jr.':C('MIL',15.2,4,64),'Caris LeVert':C('MIL',14.8092,1,14.8092),'AJ Green':C('MIL',10.044644,4,45),'Brayden Burries':C('MIL',6.41736,4,13.15536),'Jaime Jaquez Jr.':C('MIL',5.939141,1,5.939141),'Ousmane Dieng':C('MIL',5.75,3,11.5),'Nate Ament':C('MIL',5.502,4,11.27928),'Kevin Porter Jr.':C('MIL',5.3907,1,5.3907),'Kel’el Ware':C('MIL',4.65492,2,4.65492),'Ryan Rollins':C('MIL',4,2,4),'Kasparas Jakučionis':C('MIL',3.84168,3,3.84168),'Jericho Sims':C('MIL',2.801346,1,2.801346),'Pete Nance':C('MIL',2.537526,2,2.537526),'John Butler Jr.':C('MIL',2.449421,1,null),'Bogoljub Marković':C('MIL',1.357763,4,6.346496)
 };
-export function applyAuditedBatchLalMemMiaMil(p){const c=CONTRACTS_BATCH[p.name];if(!c||c.team!==p.team)return p;return{...p,contract:{...(p.contract||{}),salary:c.salary,years:c.years,guaranteed:c.guaranteed,type:p.contract?.type||'standard',verified:true}}}
+export function applyAuditedBatchLalMemMiaMil(p){const c=CONTRACTS_BATCH[p.name];const q=c&&c.team===p.team?{...p,contract:{...(p.contract||{}),salary:c.salary,years:c.years,guaranteed:c.guaranteed,type:p.contract?.type||'standard',verified:true}}:p;return applyAuditedBatchMinNopNykOkc(q)}
