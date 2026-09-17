@@ -1,12 +1,15 @@
-const VERSION='0.5.8';
+const VERSION='0.5.9';
 const versionEl=document.querySelector('[data-version]');if(versionEl)versionEl.textContent=`VERSION ${VERSION}`;
-function cleanAppUrl(){const u=new URL(location.href);u.searchParams.delete('refresh');u.searchParams.set('v',Date.now());return u.href}
 async function forceUpdateCheck(){
  try{
-  const res=await fetch(new URL(`version.json?check=${Date.now()}`,document.baseURI),{cache:'no-store',headers:{'Cache-Control':'no-cache'}});
+  const versionUrl=new URL('./version.json',location.href);versionUrl.searchParams.set('check',Date.now());
+  const res=await fetch(versionUrl.href,{cache:'no-store'});
   if(!res.ok)return false;
   const live=await res.json();
-  if(live?.version&&live.version!==VERSION){location.replace(cleanAppUrl());return true}
+  if(live?.version&&live.version!==VERSION){
+   const root=new URL('./',location.href);root.searchParams.set('v',live.version);root.searchParams.set('t',Date.now());
+   location.replace(root.href);return true
+  }
  }catch(e){console.warn('update check failed',e)}
  return false
 }
