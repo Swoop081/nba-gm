@@ -1,0 +1,51 @@
+// Verified 2026-27 contract audit batch: GSW, HOU, IND, LAC.
+// USD millions. Current-team guard prevents stale/traded contracts being applied.
+const C=(team,salary,years,guaranteed=null,option=null)=>({team,salary,years,guaranteed,option});
+export const CONTRACTS_BATCH_GSW_HOU_IND_LAC={
+// Golden State
+'Stephen Curry':C('GSW',62.587158,1,62.587158),
+'Jimmy Butler III':C('GSW',56.832773,1,56.832773),
+'Draymond Green':C('GSW',27.678571,1,27.678571),
+'Kristaps Porzingis':C('GSW',19.512195,2,19.512195),
+'Moses Moody':C('GSW',12.5,2,25.925925),
+'Al Horford':C('GSW',6.822,2,13.9851),
+'Yaxel Lendeborg':C('GSW',6.09624,4,12.49752),
+'Brandin Podziemski':C('GSW',5.679459,1,5.679459),
+"De'Anthony Melton":C('GSW',5.477,2,5.477),
+'Gui Santos':C('GSW',4.62963,3,9.62963),
+'Charles Bassey':C('GSW',2.449421,1,2.449421),
+'Georges Niang':C('GSW',2.449421,1,null),
+'Gary Payton II':C('GSW',2.449421,1,2.449421),
+'Dalen Terry':C('GSW',1.357763,1,null),
+// Houston
+'Kevin Durant':C('HOU',43.902439,2,43.902439),
+'Alperen Sengun':C('HOU',35.642202,4,112.018349),
+'Fred VanVleet':C('HOU',25,1,25),
+'Jabari Smith Jr.':C('HOU',23.643411,5,122),
+'Tari Eason':C('HOU',14.051724,5,62.951724),
+'Steven Adams':C('HOU',13,2,24.869566),
+// Indiana
+'Tyrese Haliburton':C('IND',48.924624,3,156.896208),
+'Pascal Siakam':C('IND',48.924624,2,101.22336),
+'Ivica Zubac':C('IND',20.34214,2,42.13244),
+'Andrew Nembhard':C('IND',19.55016,2,40.54848),
+'Obi Toppin':C('IND',15,2,31.025),
+'Aaron Nesmith':C('IND',11,3,51.38944),
+'T.J. McConnell':C('IND',11,3,22.8),
+'Jarace Walker':C('IND',8.478542,1,8.478542),
+'Kelly Oubre Jr.':C('IND',8.05,2,16.5),
+'Ben Sheppard':C('IND',5.031669,1,5.031669),
+'Jay Huff':C('IND',2.667944,2,null),
+'Larry Nance Jr.':C('IND',2.449421,1,2.449421),
+'Johnny Furphy':C('IND',2.296271,2,2.296271),
+// LA Clippers — only entries matching the game's current LAC roster will apply.
+'Darius Garland':C('LAC',42.16651,2,87.05344),
+'Max Strus':C('LAC',16.660836,1,16.660836),
+'Rui Hachimura':C('LAC',14,2,14),
+'Derrick Jones Jr.':C('LAC',10.47619,1,10.47619),
+'Keaton Wagler':C('LAC',9.67476,4,19.833),
+'Brook Lopez':C('LAC',9.1875,1,9.1875),
+'Jordan Miller':C('LAC',5.3,3,5.3),
+'Nicolas Batum':C('LAC',5.88168,1,null)
+};
+export function applyContractBatchGSWHOUINDLAC(p){const c=CONTRACTS_BATCH_GSW_HOU_IND_LAC[p.name];if(!c||c.team!==p.team)return p;return{...p,contract:{...(p.contract||{}),salary:c.salary,years:c.years,guaranteed:c.guaranteed,option:c.option,type:p.contract?.type||'standard',verified:true}}}
