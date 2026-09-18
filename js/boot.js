@@ -1,4 +1,4 @@
-const VERSION='0.6.93';
+const VERSION='0.6.94';
 const BUILD_KEY='nba-gm-build';
 const versionEl=document.querySelector('[data-version]');if(versionEl)versionEl.textContent=`VERSION ${VERSION}`;
 try{localStorage.setItem(BUILD_KEY,VERSION)}catch{}
@@ -7,4 +7,4 @@ function freshRoot(version){const u=new URL('./',document.baseURI);u.search='';u
 async function registerUpdater(){if(!('serviceWorker'in navigator))return null;try{const reg=await navigator.serviceWorker.register(`./sw.js?v=${VERSION}`,{scope:'./',updateViaCache:'none'});await reg.update();return reg}catch(e){console.warn('service worker registration failed',e);return null}}
 async function checkForUpdate(button){const original=button.dataset.label||button.textContent;button.dataset.label=original;button.disabled=true;button.textContent='CHECKING…';try{const reg=await registerUpdater();if(reg)await reg.update();const u=`https://raw.githubusercontent.com/Swoop081/nba-gm/main/version.json?force=${Date.now()}`;const res=await fetch(u,{cache:'no-store'});if(!res.ok)throw new Error('Version check failed');const live=await res.json();if(!live?.version)throw new Error('Invalid version');if(live.version===VERSION){try{localStorage.setItem(BUILD_KEY,VERSION)}catch{}button.textContent=`UP TO DATE — v${VERSION}`;setTimeout(()=>{button.textContent=original;button.disabled=false},2200);return}button.textContent=`UPDATE NOW — v${live.version}`;button.disabled=false;button.onclick=()=>{try{localStorage.setItem(BUILD_KEY,live.version)}catch{}location.replace(freshRoot(live.version))}}catch(e){button.textContent='CHECK FAILED — TAP TO RETRY';button.disabled=false;button.onclick=()=>checkForUpdate(button)}}
 const updateButton=document.querySelector('#launchCheckUpdate');if(updateButton)updateButton.onclick=e=>checkForUpdate(e.currentTarget);
-addEventListener('load',async()=>{await registerUpdater();try{const u=`https://raw.githubusercontent.com/Swoop081/nba-gm/main/version.json?force=${Date.now()}`;const res=await fetch(u,{cache:'no-store'});const live=await res.json();if(live?.version&&live.version!==VERSION)location.replace(freshRoot(live.version))}catch{}});
+addEventListener('load',async()=>{await registerUpdater()});
