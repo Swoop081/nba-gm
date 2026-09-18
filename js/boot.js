@@ -1,4 +1,4 @@
-const VERSION='0.6.76';
+const VERSION='0.6.77';
 const BUILD_KEY='nba-gm-build';
 const versionEl=document.querySelector('[data-version]');if(versionEl)versionEl.textContent=`VERSION ${VERSION}`;
 try{localStorage.setItem(BUILD_KEY,VERSION)}catch{}
