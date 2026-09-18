@@ -1,6 +1,6 @@
-const VERSION='0.6.102';
+const VERSION='0.6.103';
 const CACHE=`nba-gm-${VERSION}`;
-const FALLBACK='./index.html?v=0.6.102';
+const FALLBACK='./index.html?v=0.6.103';
 self.addEventListener('install',event=>{self.skipWaiting();event.waitUntil(caches.open(CACHE).then(cache=>cache.add(FALLBACK)).catch(()=>{}))});
 self.addEventListener('activate',event=>{event.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)));await self.clients.claim()})())});
 self.addEventListener('fetch',event=>{const req=event.request;if(req.method!=='GET')return;const url=new URL(req.url);if(url.origin!==self.location.origin)return;if(req.mode==='navigate'){event.respondWith((async()=>{try{return await fetch(req,{cache:'no-store'})}catch{return (await caches.match(FALLBACK))||Response.error()}})());return}event.respondWith((async()=>{try{const fresh=await fetch(req,{cache:'no-store'});if(fresh&&fresh.ok){const cache=await caches.open(CACHE);cache.put(req,fresh.clone()).catch(()=>{})}return fresh}catch{return (await caches.match(req))||Response.error()}})())});
