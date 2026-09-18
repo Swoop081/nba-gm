@@ -1,4 +1,4 @@
-const VERSION='0.6.62';const CACHE=`nba-gm-${VERSION}`;const FALLBACK='./index.html?v=0.6.62';
+const VERSION='0.6.63';const CACHE=`nba-gm-${VERSION}`;const FALLBACK='./index.html?v=0.6.63';
 self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(CACHE).then(c=>c.add(new Request(FALLBACK,{cache:'reload'}))).catch(()=>{}))});
 self.addEventListener('activate',e=>{e.waitUntil((async()=>{for(const k of await caches.keys())if(k!==CACHE)await caches.delete(k);await self.clients.claim()})())});
 self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET')return;const u=new URL(r.url);if(u.origin!==self.location.origin)return;if(r.mode==='navigate'){e.respondWith(fetch(r,{cache:'no-store'}).catch(()=>caches.match(FALLBACK)));return}e.respondWith(fetch(r,{cache:'no-store'}).then(x=>{if(x.ok)caches.open(CACHE).then(c=>c.put(r,x.clone()));return x}).catch(()=>caches.match(r)))});
