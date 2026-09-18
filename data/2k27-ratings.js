@@ -2,6 +2,7 @@
 export const RATINGS_2K27={
   "Jalen Johnson": {
     "rating2k": 87,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -46,6 +47,7 @@ export const RATINGS_2K27={
   },
   "Nickeil Alexander-Walker": {
     "rating2k": 83,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 87,
@@ -90,6 +92,7 @@ export const RATINGS_2K27={
   },
   "C.J. McCollum": {
     "rating2k": 83,
+    "position2k": "SG/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 85,
@@ -134,6 +137,7 @@ export const RATINGS_2K27={
   },
   "Dyson Daniels": {
     "rating2k": 81,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 50,
@@ -178,6 +182,7 @@ export const RATINGS_2K27={
   },
   "Onyeka Okongwu": {
     "rating2k": 81,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 82,
@@ -222,6 +227,7 @@ export const RATINGS_2K27={
   },
   "Luguentz Dort": {
     "rating2k": 78,
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 78,
@@ -442,6 +448,7 @@ export const RATINGS_2K27={
   },
   "Corey Kispert": {
     "rating2k": 73,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -486,6 +493,7 @@ export const RATINGS_2K27={
   },
   "Asa Newell": {
     "rating2k": 73,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 82,
@@ -530,6 +538,7 @@ export const RATINGS_2K27={
   },
   "Mouhamed Gueye": {
     "rating2k": 72,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 73,
@@ -574,6 +583,7 @@ export const RATINGS_2K27={
   },
   "Ryan Nembhard": {
     "rating2k": 72,
+    "position2k": "PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -618,6 +628,7 @@ export const RATINGS_2K27={
   },
   "Jalen Wilson": {
     "rating2k": 71,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 79,
@@ -662,6 +673,7 @@ export const RATINGS_2K27={
   },
   "Zuby Ejiofor": {
     "rating2k": 71,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 62,
@@ -838,6 +850,7 @@ export const RATINGS_2K27={
   },
   "LeBron James": {
     "rating2k": 91,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 76,
@@ -882,6 +895,7 @@ export const RATINGS_2K27={
   },
   "Jalen Brunson": {
     "rating2k": 96,
+    "position2k": "PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 88,
@@ -926,6 +940,7 @@ export const RATINGS_2K27={
   },
   "Jayson Tatum": {
     "rating2k": 93,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 88,
@@ -970,6 +985,7 @@ export const RATINGS_2K27={
   },
   "Derrick White": {
     "rating2k": 83,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 81,
@@ -1014,6 +1030,7 @@ export const RATINGS_2K27={
   },
   "Paul George": {
     "rating2k": 82,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 83,
@@ -1058,6 +1075,7 @@ export const RATINGS_2K27={
   },
   "Payton Pritchard": {
     "rating2k": 82,
+    "position2k": "PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 87,
@@ -1102,6 +1120,7 @@ export const RATINGS_2K27={
   },
   "Mitchell Robinson": {
     "rating2k": 80,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 32,
@@ -1146,6 +1165,7 @@ export const RATINGS_2K27={
   },
   "Neemias Queta": {
     "rating2k": 80,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 50,
@@ -1190,6 +1210,7 @@ export const RATINGS_2K27={
   },
   "Sam Hauser": {
     "rating2k": 76,
+    "position2k": "SF/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 87,
@@ -1234,6 +1255,7 @@ export const RATINGS_2K27={
   },
   "Mike Conley": {
     "rating2k": 75,
+    "position2k": "PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 74,
@@ -1278,6 +1300,7 @@ export const RATINGS_2K27={
   },
   "Luka Garza": {
     "rating2k": 75,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 81,
@@ -1322,6 +1345,7 @@ export const RATINGS_2K27={
   },
   "Baylor Scheierman": {
     "rating2k": 75,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 83,
@@ -1410,6 +1434,7 @@ export const RATINGS_2K27={
   },
   "Jordan Walsh": {
     "rating2k": 74,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 81,
@@ -1630,6 +1655,7 @@ export const RATINGS_2K27={
   },
   "Michael Porter Jr.": {
     "rating2k": 85,
+    "position2k": "SF/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 87,
@@ -1674,6 +1700,7 @@ export const RATINGS_2K27={
   },
   "Julius Randle": {
     "rating2k": 83,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 76,
@@ -1718,6 +1745,7 @@ export const RATINGS_2K27={
   },
   "Keon Ellis": {
     "rating2k": 76,
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -1762,6 +1790,7 @@ export const RATINGS_2K27={
   },
   "Noah Clowney": {
     "rating2k": 76,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 78,
@@ -1806,6 +1835,7 @@ export const RATINGS_2K27={
   },
   "Nolan Traore": {
     "rating2k": 76,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 74,
@@ -1938,6 +1968,7 @@ export const RATINGS_2K27={
   },
   "Danny Wolf": {
     "rating2k": 75,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 75,
@@ -1982,6 +2013,7 @@ export const RATINGS_2K27={
   },
   "Terance Mann": {
     "rating2k": 74,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -2070,6 +2102,7 @@ export const RATINGS_2K27={
   },
   "Josh Minott": {
     "rating2k": 74,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 82,
@@ -2114,6 +2147,7 @@ export const RATINGS_2K27={
   },
   "Moritz Wagner": {
     "rating2k": 74,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 75,
@@ -2422,6 +2456,7 @@ export const RATINGS_2K27={
   },
   "Brandon Miller": {
     "rating2k": 85,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 85,
@@ -2466,6 +2501,7 @@ export const RATINGS_2K27={
   },
   "Kon Knueppel": {
     "rating2k": 84,
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 94,
@@ -2510,6 +2546,7 @@ export const RATINGS_2K27={
   },
   "Naz Reid": {
     "rating2k": 82,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 83,
@@ -2554,6 +2591,7 @@ export const RATINGS_2K27={
   },
   "Coby White": {
     "rating2k": 80,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 81,
@@ -2598,6 +2636,7 @@ export const RATINGS_2K27={
   },
   "Grayson Allen": {
     "rating2k": 80,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 86,
@@ -2686,6 +2725,7 @@ export const RATINGS_2K27={
   },
   "Ryan Kalkbrenner": {
     "rating2k": 79,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 73,
@@ -2730,6 +2770,7 @@ export const RATINGS_2K27={
   },
   "Dennis Schroder": {
     "rating2k": 76,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 76,
@@ -2818,6 +2859,7 @@ export const RATINGS_2K27={
   },
   "Dorian Finney-Smith": {
     "rating2k": 74,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 73,
@@ -2862,6 +2904,7 @@ export const RATINGS_2K27={
   },
   "Sion James": {
     "rating2k": 74,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -2906,6 +2949,7 @@ export const RATINGS_2K27={
   },
   "Grant Williams": {
     "rating2k": 74,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 81,
@@ -3038,6 +3082,7 @@ export const RATINGS_2K27={
   },
   "Pat Connaughton": {
     "rating2k": 71,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 79,
@@ -3302,6 +3347,7 @@ export const RATINGS_2K27={
   },
   "Norman Powell": {
     "rating2k": 84,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 84,
@@ -3346,6 +3392,7 @@ export const RATINGS_2K27={
   },
   "Josh Giddey": {
     "rating2k": 84,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 79,
@@ -3390,6 +3437,7 @@ export const RATINGS_2K27={
   },
   "Matas Buzelis": {
     "rating2k": 81,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -3478,6 +3526,7 @@ export const RATINGS_2K27={
   },
   "Tre Jones": {
     "rating2k": 79,
+    "position2k": "PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 75,
@@ -3522,6 +3571,7 @@ export const RATINGS_2K27={
   },
   "Caleb Wilson": {
     "rating2k": 77,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 65,
@@ -3566,6 +3616,7 @@ export const RATINGS_2K27={
   },
   "Jalen Smith": {
     "rating2k": 76,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -3610,6 +3661,7 @@ export const RATINGS_2K27={
   },
   "Zach Collins": {
     "rating2k": 75,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 79,
@@ -3654,6 +3706,7 @@ export const RATINGS_2K27={
   },
   "Isaac Okoro": {
     "rating2k": 75,
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 77,
@@ -3698,6 +3751,7 @@ export const RATINGS_2K27={
   },
   "Patrick Williams": {
     "rating2k": 74,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 77,
@@ -3742,6 +3796,7 @@ export const RATINGS_2K27={
   },
   "Leonard Miller": {
     "rating2k": 74,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 73,
@@ -4006,6 +4061,7 @@ export const RATINGS_2K27={
   },
   "Donovan Mitchell": {
     "rating2k": 93,
+    "position2k": "SG/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 88,
@@ -4094,6 +4150,7 @@ export const RATINGS_2K27={
   },
   "Evan Mobley": {
     "rating2k": 87,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 75,
@@ -4138,6 +4195,7 @@ export const RATINGS_2K27={
   },
   "Jarrett Allen": {
     "rating2k": 85,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 63,
@@ -4226,6 +4284,7 @@ export const RATINGS_2K27={
   },
   "Sam Merrill": {
     "rating2k": 77,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 91,
@@ -4270,6 +4329,7 @@ export const RATINGS_2K27={
   },
   "Jaylon Tyson": {
     "rating2k": 76,
+    "position2k": "SF/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 84,
@@ -4710,6 +4770,7 @@ export const RATINGS_2K27={
   },
   "Cooper Flagg": {
     "rating2k": 87,
+    "position2k": "SF/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 71,
@@ -4754,6 +4815,7 @@ export const RATINGS_2K27={
   },
   "Kyrie Irving": {
     "rating2k": 87,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 86,
@@ -4798,6 +4860,7 @@ export const RATINGS_2K27={
   },
   "P.J. Washington": {
     "rating2k": 79,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 75,
@@ -4842,6 +4905,7 @@ export const RATINGS_2K27={
   },
   "Daniel Gafford": {
     "rating2k": 79,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 29,
@@ -4886,6 +4950,7 @@ export const RATINGS_2K27={
   },
   "Naji Marshall": {
     "rating2k": 79,
+    "position2k": "SF/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 71,
@@ -4930,6 +4995,7 @@ export const RATINGS_2K27={
   },
   "Dereck Lively II": {
     "rating2k": 79,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 52,
@@ -4974,6 +5040,7 @@ export const RATINGS_2K27={
   },
   "Santi Aldama": {
     "rating2k": 78,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -5018,6 +5085,7 @@ export const RATINGS_2K27={
   },
   "Zaccharie Risacher": {
     "rating2k": 76,
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 81,
@@ -5062,6 +5130,7 @@ export const RATINGS_2K27={
   },
   "Max Christie": {
     "rating2k": 75,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 84,
@@ -5106,6 +5175,7 @@ export const RATINGS_2K27={
   },
   "Marcus Sasser": {
     "rating2k": 74,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 82,
@@ -5502,6 +5572,7 @@ export const RATINGS_2K27={
   },
   "Nikola Jokic": {
     "rating2k": 97,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 85,
@@ -5546,6 +5617,7 @@ export const RATINGS_2K27={
   },
   "Jamal Murray": {
     "rating2k": 89,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 88,
@@ -5590,6 +5662,7 @@ export const RATINGS_2K27={
   },
   "Aaron Gordon": {
     "rating2k": 83,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 82,
@@ -5678,6 +5751,7 @@ export const RATINGS_2K27={
   },
   "Cameron Johnson": {
     "rating2k": 80,
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 89,
@@ -5722,6 +5796,7 @@ export const RATINGS_2K27={
   },
   "Christian Braun": {
     "rating2k": 79,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 78,
@@ -5766,6 +5841,7 @@ export const RATINGS_2K27={
   },
   "Marvin Bagley III": {
     "rating2k": 76,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 75,
@@ -5810,6 +5886,7 @@ export const RATINGS_2K27={
   },
   "Julian Strawther": {
     "rating2k": 75,
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -5854,6 +5931,7 @@ export const RATINGS_2K27={
   },
   "Tyus Jones": {
     "rating2k": 73,
+    "position2k": "PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 70,
@@ -5942,6 +6020,7 @@ export const RATINGS_2K27={
   },
   "Spencer Jones": {
     "rating2k": 72,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 81,
@@ -6074,6 +6153,7 @@ export const RATINGS_2K27={
   },
   "DaRon Holmes II": {
     "rating2k": 71,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 78,
@@ -6118,6 +6198,7 @@ export const RATINGS_2K27={
   },
   "Zeke Nnaji": {
     "rating2k": 71,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 72,
@@ -6250,6 +6331,7 @@ export const RATINGS_2K27={
   },
   "Cade Cunningham": {
     "rating2k": 94,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 86,
@@ -6294,6 +6376,7 @@ export const RATINGS_2K27={
   },
   "Ausar Thompson": {
     "rating2k": 85,
+    "position2k": "SF/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 70,
@@ -6338,6 +6421,7 @@ export const RATINGS_2K27={
   },
   "Jalen Duren": {
     "rating2k": 85,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 35,
@@ -6382,6 +6466,7 @@ export const RATINGS_2K27={
   },
   "John Collins": {
     "rating2k": 79,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 83,
@@ -6426,6 +6511,7 @@ export const RATINGS_2K27={
   },
   "Daniss Jenkins": {
     "rating2k": 79,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 83,
@@ -6470,6 +6556,7 @@ export const RATINGS_2K27={
   },
   "Duncan Robinson": {
     "rating2k": 79,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 93,
@@ -6558,6 +6645,7 @@ export const RATINGS_2K27={
   },
   "Paul Reed": {
     "rating2k": 77,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 76,
@@ -7086,6 +7174,7 @@ export const RATINGS_2K27={
   },
   "Stephen Curry": {
     "rating2k": 93,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 99,
@@ -7130,6 +7219,7 @@ export const RATINGS_2K27={
   },
   "Jimmy Butler": {
     "rating2k": 85,
+    "position2k": "SF/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 76,
@@ -7174,6 +7264,7 @@ export const RATINGS_2K27={
   },
   "Kristaps Porzingis": {
     "rating2k": 81,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -7218,6 +7309,7 @@ export const RATINGS_2K27={
   },
   "Draymond Green": {
     "rating2k": 79,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 75,
@@ -7262,6 +7354,7 @@ export const RATINGS_2K27={
   },
   "Brandin Podziemski": {
     "rating2k": 79,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 83,
@@ -7306,6 +7399,7 @@ export const RATINGS_2K27={
   },
   "Gui Santos": {
     "rating2k": 78,
+    "position2k": "SF/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -7878,6 +7972,7 @@ export const RATINGS_2K27={
   },
   "Kevin Durant": {
     "rating2k": 93,
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 92,
@@ -7922,6 +8017,7 @@ export const RATINGS_2K27={
   },
   "Alperen Sengun": {
     "rating2k": 87,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 74,
@@ -7966,6 +8062,7 @@ export const RATINGS_2K27={
   },
   "Amen Thompson": {
     "rating2k": 86,
+    "position2k": "SG/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 56,
@@ -8010,6 +8107,7 @@ export const RATINGS_2K27={
   },
   "Jabari Smith Jr.": {
     "rating2k": 80,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 83,
@@ -8054,6 +8152,7 @@ export const RATINGS_2K27={
   },
   "Reed Sheppard": {
     "rating2k": 79,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 84,
@@ -8098,6 +8197,7 @@ export const RATINGS_2K27={
   },
   "Fred VanVleet": {
     "rating2k": 79,
+    "position2k": "PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 78,
@@ -8142,6 +8242,7 @@ export const RATINGS_2K27={
   },
   "Marcus Smart": {
     "rating2k": 79,
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 79,
@@ -8714,6 +8815,7 @@ export const RATINGS_2K27={
   },
   "Tyrese Haliburton": {
     "rating2k": 90,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 87,
@@ -8758,6 +8860,7 @@ export const RATINGS_2K27={
   },
   "Pascal Siakam": {
     "rating2k": 87,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -8802,6 +8905,7 @@ export const RATINGS_2K27={
   },
   "Ivica Zubac": {
     "rating2k": 84,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 26,
@@ -9462,6 +9566,7 @@ export const RATINGS_2K27={
   },
   "Darius Garland": {
     "rating2k": 84,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 86,
@@ -9506,6 +9611,7 @@ export const RATINGS_2K27={
   },
   "Brandon Ingram": {
     "rating2k": 84,
+    "position2k": "SF/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 82,
@@ -9550,6 +9656,7 @@ export const RATINGS_2K27={
   },
   "Rui Hachimura": {
     "rating2k": 79,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 85,
@@ -9594,6 +9701,7 @@ export const RATINGS_2K27={
   },
   "Max Strus": {
     "rating2k": 78,
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 91,
@@ -10342,6 +10450,7 @@ export const RATINGS_2K27={
   },
   "Luka Doncic": {
     "rating2k": 96,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 92,
@@ -10386,6 +10495,7 @@ export const RATINGS_2K27={
   },
   "Austin Reaves": {
     "rating2k": 88,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 85,
@@ -10430,6 +10540,7 @@ export const RATINGS_2K27={
   },
   "Walker Kessler": {
     "rating2k": 81,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 70,
@@ -10474,6 +10585,7 @@ export const RATINGS_2K27={
   },
   "Collin Sexton": {
     "rating2k": 79,
+    "position2k": "SG/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 84,
@@ -10518,6 +10630,7 @@ export const RATINGS_2K27={
   },
   "Quentin Grimes": {
     "rating2k": 78,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 79,
@@ -10606,6 +10719,7 @@ export const RATINGS_2K27={
   },
   "Sandro Mamukelashvili": {
     "rating2k": 76,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 81,
@@ -10650,6 +10764,7 @@ export const RATINGS_2K27={
   },
   "Ziaire Williams": {
     "rating2k": 75,
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 77,
@@ -11178,6 +11293,7 @@ export const RATINGS_2K27={
   },
   "Ty Jerome": {
     "rating2k": 80,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 83,
@@ -11222,6 +11338,7 @@ export const RATINGS_2K27={
   },
   "Zach Edey": {
     "rating2k": 80,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 74,
@@ -11266,6 +11383,7 @@ export const RATINGS_2K27={
   },
   "Cedric Coward": {
     "rating2k": 80,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 78,
@@ -11310,6 +11428,7 @@ export const RATINGS_2K27={
   },
   "Jerami Grant": {
     "rating2k": 79,
+    "position2k": "SF/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 83,
@@ -11354,6 +11473,7 @@ export const RATINGS_2K27={
   },
   "Cameron Boozer": {
     "rating2k": 79,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 79,
@@ -11398,6 +11518,7 @@ export const RATINGS_2K27={
   },
   "Jaylen Wells": {
     "rating2k": 78,
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 82,
@@ -12102,6 +12223,7 @@ export const RATINGS_2K27={
   },
   "Giannis Antetokounmpo": {
     "rating2k": 96,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 62,
@@ -12146,6 +12268,7 @@ export const RATINGS_2K27={
   },
   "Bam Adebayo": {
     "rating2k": 87,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 77,
@@ -12234,6 +12357,7 @@ export const RATINGS_2K27={
   },
   "Andrew Wiggins": {
     "rating2k": 79,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 86,
@@ -12278,6 +12402,7 @@ export const RATINGS_2K27={
   },
   "Tim Hardaway Jr.": {
     "rating2k": 79,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 87,
@@ -12410,6 +12535,7 @@ export const RATINGS_2K27={
   },
   "Klay Thompson": {
     "rating2k": 76,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 88,
@@ -12850,6 +12976,7 @@ export const RATINGS_2K27={
   },
   "Tyler Herro": {
     "rating2k": 85,
+    "position2k": "SG/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 85,
@@ -12894,6 +13021,7 @@ export const RATINGS_2K27={
   },
   "Ryan Rollins": {
     "rating2k": 80,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 84,
@@ -12938,6 +13066,7 @@ export const RATINGS_2K27={
   },
   "Kevin Porter Jr.": {
     "rating2k": 79,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 76,
@@ -13686,6 +13815,7 @@ export const RATINGS_2K27={
   },
   "Anthony Edwards": {
     "rating2k": 95,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 92,
@@ -13730,6 +13860,7 @@ export const RATINGS_2K27={
   },
   "LaMelo Ball": {
     "rating2k": 86,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 87,
@@ -13774,6 +13905,7 @@ export const RATINGS_2K27={
   },
   "Jaden McDaniels": {
     "rating2k": 85,
+    "position2k": "SF/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 85,
@@ -13818,6 +13950,7 @@ export const RATINGS_2K27={
   },
   "Rudy Gobert": {
     "rating2k": 84,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 29,
@@ -14434,6 +14567,7 @@ export const RATINGS_2K27={
   },
   "Zion Williamson": {
     "rating2k": 85,
+    "position2k": "PF/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 67,
@@ -14478,6 +14612,7 @@ export const RATINGS_2K27={
   },
   "Trey Murphy III": {
     "rating2k": 85,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 85,
@@ -14522,6 +14657,7 @@ export const RATINGS_2K27={
   },
   "Dejounte Murray": {
     "rating2k": 82,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 74,
@@ -14566,6 +14702,7 @@ export const RATINGS_2K27={
   },
   "Saddiq Bey": {
     "rating2k": 80,
+    "position2k": "SF/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 82,
@@ -14610,6 +14747,7 @@ export const RATINGS_2K27={
   },
   "Derik Queen": {
     "rating2k": 79,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 66,
@@ -14654,6 +14792,7 @@ export const RATINGS_2K27={
   },
   "Herbert Jones": {
     "rating2k": 79,
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 73,
@@ -14698,6 +14837,7 @@ export const RATINGS_2K27={
   },
   "Jeremiah Fears": {
     "rating2k": 79,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 79,
@@ -15358,6 +15498,7 @@ export const RATINGS_2K27={
   },
   "Karl-Anthony Towns": {
     "rating2k": 93,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 82,
@@ -15402,6 +15543,7 @@ export const RATINGS_2K27={
   },
   "OG Anunoby": {
     "rating2k": 88,
+    "position2k": "SF/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 85,
@@ -15446,6 +15588,7 @@ export const RATINGS_2K27={
   },
   "Mikal Bridges": {
     "rating2k": 84,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 83,
@@ -15490,6 +15633,7 @@ export const RATINGS_2K27={
   },
   "Josh Hart": {
     "rating2k": 82,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 83,
@@ -15534,6 +15678,7 @@ export const RATINGS_2K27={
   },
   "Miles McBride": {
     "rating2k": 78,
+    "position2k": "SG/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 86,
@@ -15886,6 +16031,7 @@ export const RATINGS_2K27={
   },
   "Shai Gilgeous-Alexander": {
     "rating2k": 97,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 82,
@@ -15930,6 +16076,7 @@ export const RATINGS_2K27={
   },
   "Chet Holmgren": {
     "rating2k": 86,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 79,
@@ -15974,6 +16121,7 @@ export const RATINGS_2K27={
   },
   "Jalen Williams": {
     "rating2k": 85,
+    "position2k": "SF/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 77,
@@ -16018,6 +16166,7 @@ export const RATINGS_2K27={
   },
   "Isaiah Hartenstein": {
     "rating2k": 82,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 55,
@@ -16062,6 +16211,7 @@ export const RATINGS_2K27={
   },
   "Ajay Mitchell": {
     "rating2k": 82,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 79,
@@ -16106,6 +16256,7 @@ export const RATINGS_2K27={
   },
   "Alex Caruso": {
     "rating2k": 81,
+    "position2k": "SF/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -16150,6 +16301,7 @@ export const RATINGS_2K27={
   },
   "Cason Wallace": {
     "rating2k": 81,
+    "position2k": "SG/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 81,
@@ -16634,6 +16786,7 @@ export const RATINGS_2K27={
   },
   "Paolo Banchero": {
     "rating2k": 87,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 78,
@@ -16678,6 +16831,7 @@ export const RATINGS_2K27={
   },
   "Franz Wagner": {
     "rating2k": 85,
+    "position2k": "SF/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 78,
@@ -16722,6 +16876,7 @@ export const RATINGS_2K27={
   },
   "Desmond Bane": {
     "rating2k": 84,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 87,
@@ -17426,6 +17581,7 @@ export const RATINGS_2K27={
   },
   "Tyrese Maxey": {
     "rating2k": 92,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 88,
@@ -17470,6 +17626,7 @@ export const RATINGS_2K27={
   },
   "Jaylen Brown": {
     "rating2k": 91,
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 82,
@@ -17514,6 +17671,7 @@ export const RATINGS_2K27={
   },
   "Joel Embiid": {
     "rating2k": 91,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 79,
@@ -17558,6 +17716,7 @@ export const RATINGS_2K27={
   },
   "V.J. Edgecombe": {
     "rating2k": 83,
+    "position2k": "SG/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 82,
@@ -17602,6 +17761,7 @@ export const RATINGS_2K27={
   },
   "Anfernee Simons": {
     "rating2k": 79,
+    "position2k": "SG/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 82,
@@ -17646,6 +17806,7 @@ export const RATINGS_2K27={
   },
   "Dean Wade": {
     "rating2k": 76,
+    "position2k": "PF/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 79,
@@ -18086,6 +18247,7 @@ export const RATINGS_2K27={
   },
   "Devin Booker": {
     "rating2k": 91,
+    "position2k": "SG/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 86,
@@ -18130,6 +18292,7 @@ export const RATINGS_2K27={
   },
   "Dillon Brooks": {
     "rating2k": 82,
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -18174,6 +18337,7 @@ export const RATINGS_2K27={
   },
   "Jalen Green": {
     "rating2k": 81,
+    "position2k": "SG/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 79,
@@ -18306,6 +18470,7 @@ export const RATINGS_2K27={
   },
   "Mark Williams": {
     "rating2k": 78,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 36,
@@ -18878,6 +19043,7 @@ export const RATINGS_2K27={
   },
   "Deni Avdija": {
     "rating2k": 88,
+    "position2k": "SF/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 75,
@@ -18922,6 +19088,7 @@ export const RATINGS_2K27={
   },
   "Damian Lillard": {
     "rating2k": 86,
+    "position2k": "PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 93,
@@ -18966,6 +19133,7 @@ export const RATINGS_2K27={
   },
   "Ja Morant": {
     "rating2k": 84,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 70,
@@ -19230,6 +19398,7 @@ export const RATINGS_2K27={
   },
   "Robert Williams III": {
     "rating2k": 78,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 74,
@@ -19274,6 +19443,7 @@ export const RATINGS_2K27={
   },
   "Vit Krejci": {
     "rating2k": 74,
+    "position2k": "SF/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 82,
@@ -19318,6 +19488,7 @@ export const RATINGS_2K27={
   },
   "Sidy Cissoko": {
     "rating2k": 73,
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 72,
@@ -19362,6 +19533,7 @@ export const RATINGS_2K27={
   },
   "Micah Potter": {
     "rating2k": 72,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 83,
@@ -19406,6 +19578,7 @@ export const RATINGS_2K27={
   },
   "Jeremy Sochan": {
     "rating2k": 71,
+    "position2k": "PF/C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 70,
@@ -19450,6 +19623,7 @@ export const RATINGS_2K27={
   },
   "Branden Carlson": {
     "rating2k": 71,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 78,
@@ -19494,6 +19668,7 @@ export const RATINGS_2K27={
   },
   "Yang Hansen": {
     "rating2k": 70,
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 63,
@@ -20374,6 +20549,7 @@ export const RATINGS_2K27={
   },
   "Victor Wembanyama": {
     "rating2k": 97,
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -23295,6 +23471,7 @@ export const RATINGS_2K27={
   },
   "Tre Mann": {
     "rating2k": 73,
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 76,
