@@ -1,5 +1,13 @@
 import fs from 'node:fs/promises';
 const SOURCE='https://gist.githubusercontent.com/brucehart/cd0e546bbe657c94643652455de08969/raw/03077f23acd5caf39b72b9a2332c95d91d18f6a0/nba-2026-27-regular-season-schedule.json';
 const res=await fetch(SOURCE);if(!res.ok)throw new Error('Schedule download failed: '+res.status);const raw=await res.json();
-console.log('DATES',raw.dates?.length,'GAMECOUNT',raw.gameCount); console.log('DATE_SAMPLE',JSON.stringify(raw.dates?.[0]).slice(0,5000));
-throw new Error('DATE_SCHEMA_PROBE');
+const alias={NY:'NYK',SA:'SAS',GS:'GSW',NO:'NOP',WSH:'WAS'};
+const games=(raw.dates||[]).flatMap(d=>(d.games||[]).map(g=>({id:g.id,date:g.date||d.date,tipUtc:g.startTimeUTC||'',home:alias[g.matchup?.home?.abbreviation]||g.matchup?.home?.abbreviation,away:alias[g.matchup?.away?.abbreviation]||g.matchup?.away?.abbreviation,venue:g.venue?.fullName||'',played:false}))).filter(g=>g.home&&g.away);
+if(games.length!==1200)throw new Error('Expected 1200 assigned games; received '+games.length);
+const sig=games.filter(g=>g.date==='2026-10-20').map(g=>g.away+'@'+g.home).sort().join(',');
+if(sig!=='BOS@DET,OKC@SAS,PHI@NYK')throw new Error('Opening-night validation failed: '+sig);
+const tor=games.filter(g=>g.home==='TOR'||g.away==='TOR').slice(0,3).map(g=>g.date+':'+g.away+'@'+g.home).join(',');
+if(tor!=='2026-10-21:CHI@TOR,2026-10-23:TOR@WAS,2026-10-25:TOR@MIN')throw new Error('Toronto validation failed: '+tor);
+const out={season:'2026-27',source:raw.source?.name||'ESPN NBA schedule snapshot',generated:raw.generatedAtUTC||new Date().toISOString(),games};
+await fs.mkdir('data',{recursive:true});await fs.writeFile('data/schedule-2026-27.json',JSON.stringify(out));
+console.log('Wrote and validated '+games.length+' games; opening '+sig+'; TOR '+tor);
