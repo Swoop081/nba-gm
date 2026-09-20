@@ -43,3 +43,6 @@
 
 /* v0.6.129 Trade Finder team carousel */
 .finderTeamNav{display:grid;grid-template-columns:52px 1fr 52px;align-items:center;gap:12px;margin:14px 0 16px;padding:12px 8px;border:1px solid #29425e;border-radius:18px;background:#112943}.finderTeamNav>div{display:grid;grid-template-columns:58px 1fr;grid-template-rows:auto auto auto;column-gap:12px;align-items:center;min-width:0}.finderTeamNav img{grid-row:1/4;width:58px;height:58px;object-fit:contain}.finderTeamNav span,.finderTeamNav small{font-size:10px;font-weight:800;letter-spacing:.16em;color:#9eb1c8}.finderTeamNav b{font-size:16px;line-height:1.15;color:#fff}.finderTeamNav .tradeArrow{width:46px;height:46px;border-radius:50%;font-size:30px}.finderTeamNav.single{grid-template-columns:1fr}.finderTeamNav.single>div{max-width:280px;margin:auto}
+
+/* v0.6.130 Target Player grouped team roster */
+.finderTargetTeam{margin:0 0 20px}.finderTargetTeamHead{display:flex;align-items:center;gap:12px;padding:10px 4px 9px;border-bottom:1px solid #29425e}.finderTargetTeamHead img{width:48px;height:48px;object-fit:contain}.finderTargetTeamHead div{display:flex;flex-direction:column;gap:3px}.finderTargetTeamHead b{font-size:16px;color:#fff}.finderTargetTeamHead small{font-size:9px;font-weight:800;letter-spacing:.12em;color:#9eb1c8}.finderTargetTeam .finderList{margin-top:8px}
