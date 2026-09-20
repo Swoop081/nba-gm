@@ -118,7 +118,7 @@ function fastFinderOffers(mode,p){
 function tradeFinder(){
  const sell=finderMode==='sell';
  const players=(sell?teamPlayers(save.team):PLAYERS.filter(p=>effectiveTeam(p)!==save.team)).slice().sort((a,b)=>sell?(overall(b)-overall(a)||a.name.localeCompare(b.name)):(effectiveTeam(a).localeCompare(effectiveTeam(b))||overall(b)-overall(a)||a.name.localeCompare(b.name)));
- const sel=finderSelected?PLAYERS.find(p=>p.nbaId===finderSelected):null;
+ const sel=finderTargetPickId?(()=>{const teams=TEAMS.filter(t=>t.id!==save.team&&teamPlayers(t.id).length),t=teams[finderBrowseTeamIndex],pk=t&&availableTradePicks(t.id).find(x=>x.id===finderTargetPickId);return pk&&t?{nbaId:-900000-finderBrowseTeamIndex,name:pk.year+' '+(pk.round===1?'1st':'2nd')+' Round Pick',team:t.id,pos:'PICK',age:0,ovr:40,contract:{salary:0},dev:{ceiling:40}}:null})():finderSelected?PLAYERS.find(p=>p.nbaId===finderSelected):null;
  const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
  let body='';
  if(!sel){
