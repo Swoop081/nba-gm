@@ -149,7 +149,8 @@ window.NBAGM_FINDER=(action,value)=>{
  if(action==='back'){finderSelected=null;finderResults=[];finderTeamIndex=0;page='gm';render();return}
  if(action==='mode'){finderMode=value;finderSelected=null;finderResults=[];finderTeamIndex=0;finderBrowseTeamIndex=0;render();return}
  if(action==='change'){finderSelected=null;finderResults=[];finderTeamIndex=0;render();return}
- if(action==='browseTeam'){const n=TEAMS.filter(t=>t.id!==save.team&&teamPlayers(t.id).length).length;if(n){finderBrowseTeamIndex=(finderBrowseTeamIndex+Number(value)+n)%n;render()}return}\n if(action==='team'){const n=[...new Set(finderResults.map(o=>o.team))].length;if(n){finderTeamIndex=(finderTeamIndex+Number(value)+n)%n;render()}return}
+ if(action==='browseTeam'){const n=TEAMS.filter(t=>t.id!==save.team&&teamPlayers(t.id).length).length;if(n){finderBrowseTeamIndex=(finderBrowseTeamIndex+Number(value)+n)%n;render()}return}
+ if(action==='team'){const n=[...new Set(finderResults.map(o=>o.team))].length;if(n){finderTeamIndex=(finderTeamIndex+Number(value)+n)%n;render()}return}
  if(action==='player'){const p=PLAYERS.find(x=>x.nbaId===Number(value));if(!p)return;finderSelected=p.nbaId;finderPackage=finderMode==='sell'?[p.nbaId]:[];finderPackagePicks=[];finderTeamIndex=0;finderResults=fastFinderOffers(finderMode,p);render();return}
  const i=Number(value),o=finderResults[i];if(!o)return;
  tradeTeam=o.team;tradeTheirs=(o.theirs||[o.target]).slice();tradeMine=o.mine.slice();tradePicks=(o.picks||[]).slice();window.tradeResponse=action==='accept'?{status:'ACCEPTED',reason:'Trade Finder generated this as an immediately acceptable legal deal.'}:null;page='trade';render();
