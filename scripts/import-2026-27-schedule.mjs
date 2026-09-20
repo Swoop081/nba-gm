@@ -1,11 +1,12 @@
 import fs from 'node:fs/promises';
-const SOURCE='https://gist.githubusercontent.com/brucehart/cd0e546bbe657c94643652455de08969/raw/03077f23acd5caf39b72b9a2332c95d91d18f6a0/nba-2026-27-regular-season-schedule.json';
+const SOURCE='https://fixturedownload.com/feed/json/nba-2026';
 const NBA_SOURCE='https://www.nba.com/news/2026-27-nba-regular-season-schedule';
 const map={'Atlanta Hawks':'ATL','Boston Celtics':'BOS','Brooklyn Nets':'BKN','Charlotte Hornets':'CHA','Chicago Bulls':'CHI','Cleveland Cavaliers':'CLE','Dallas Mavericks':'DAL','Denver Nuggets':'DEN','Detroit Pistons':'DET','Golden State Warriors':'GSW','Houston Rockets':'HOU','Indiana Pacers':'IND','LA Clippers':'LAC','Los Angeles Lakers':'LAL','Memphis Grizzlies':'MEM','Miami Heat':'MIA','Milwaukee Bucks':'MIL','Minnesota Timberwolves':'MIN','New Orleans Pelicans':'NOP','New York Knicks':'NYK','Oklahoma City Thunder':'OKC','Orlando Magic':'ORL','Philadelphia 76ers':'PHI','Phoenix Suns':'PHX','Portland Trail Blazers':'POR','Sacramento Kings':'SAC','San Antonio Spurs':'SAS','Toronto Raptors':'TOR','Utah Jazz':'UTA','Washington Wizards':'WAS'};
 const res=await fetch(SOURCE);if(!res.ok)throw new Error(`Schedule download failed: ${res.status}`);const raw=await res.json();
-const events=raw.events||raw.games||raw.items||[];
-const alias={'GS':'GSW','NY':'NYK','NO':'NOP','SA':'SAS','WSH':'WAS','UTAH':'UTA'};const abbr=x=>alias[x]||x;
-const games=events.map(e=>{const c=e.competitions?.[0]||e.competition||e,ts=c.competitors||e.competitors||[],h=ts.find(t=>String(t.homeAway).toLowerCase()==='home'),a=ts.find(t=>String(t.homeAway).toLowerCase()==='away'),date=String(e.date||c.date||'').slice(0,10);return{date,tipUtc:e.date||c.date,home:abbr(h?.team?.abbreviation||h?.abbreviation),away:abbr(a?.team?.abbreviation||a?.abbreviation),venue:c.venue?.fullName||'',played:false}}).filter(g=>g.date>='2026-10-20'&&g.date<='2027-04-11'&&g.home&&g.away).sort((a,b)=>a.tipUtc.localeCompare(b.tipUtc)).map((g,i)=>({...g,id:i+1}));
+const games=raw.filter(g=>map[g.HomeTeam]&&map[g.AwayTeam]).map((g,i)=>({id:i+1,date:g.DateUtc.slice(0,10),tipUtc:g.DateUtc,home:map[g.HomeTeam],away:map[g.AwayTeam],venue:g.Location||'',played:false})).sort((a,b)=>a.tipUtc.localeCompare(b.tipUtc));
 if(games.length<1200)throw new Error(`Expected NBA regular-season scale schedule; received ${games.length} mapped games`);
-const counts={};for(const g of games){counts[g.home]=(counts[g.home]||0)+1;counts[g.away]=(counts[g.away]||0)+1}const bad=Object.entries(counts).filter(([,n])=>n<80||n>82);if(bad.length)console.warn('Schedule counts requiring Cup/TBD review:',bad);
-const out={season:'2026-27',source:NBA_SOURCE,mirror:SOURCE,generated:new Date().toISOString(),games};await fs.mkdir('data',{recursive:true});await fs.writeFile('data/schedule-2026-27.json',JSON.stringify(out));console.log(`Wrote ${games.length} NBA games`);
+const opening=games.filter(g=>g.date==='2026-10-20');const sig=opening.map(g=>g.away+'@'+g.home).sort().join(',');
+if(opening.length!==3||sig!=='BOS@DET,OKC@SAS,PHI@NYK')throw new Error('Opening-night validation failed: '+sig);
+const tor=games.filter(g=>g.home==='TOR'||g.away==='TOR').slice(0,3).map(g=>g.date+':'+g.away+'@'+g.home).join(',');
+if(tor!=='2026-10-21:CHI@TOR,2026-10-23:TOR@WAS,2026-10-25:TOR@MIN')throw new Error('Toronto opening validation failed: '+tor);
+const out={season:'2026-27',source:NBA_SOURCE,mirror:SOURCE,generated:new Date().toISOString(),games};await fs.mkdir('data',{recursive:true});await fs.writeFile('data/schedule-2026-27.json',JSON.stringify(out));console.log(`Wrote and validated ${games.length} NBA games`);
