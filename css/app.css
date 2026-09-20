@@ -46,3 +46,6 @@
 
 /* v0.6.130 Target Player grouped team roster */
 .finderTargetTeam{margin:0 0 20px}.finderTargetTeamHead{display:flex;align-items:center;gap:12px;padding:10px 4px 9px;border-bottom:1px solid #29425e}.finderTargetTeamHead img{width:48px;height:48px;object-fit:contain}.finderTargetTeamHead div{display:flex;flex-direction:column;gap:3px}.finderTargetTeamHead b{font-size:16px;color:#fff}.finderTargetTeamHead small{font-size:9px;font-weight:800;letter-spacing:.12em;color:#9eb1c8}.finderTargetTeam .finderList{margin-top:8px}
+
+/* v0.6.134 Trade Finder draft-pick assets */
+.finderPickLine{display:flex;flex-wrap:wrap;justify-content:center;gap:7px;margin:-2px 18px 12px}.finderPickLine span{padding:7px 10px;border:1px solid #42617f;border-radius:9px;background:#0d2239;color:#9fdfff;font-size:10px;font-weight:900;letter-spacing:.08em}
