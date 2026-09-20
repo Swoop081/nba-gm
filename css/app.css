@@ -64,3 +64,6 @@
 
 /* v0.6.152 home cleanup */
 .homeScheduleTarget{display:none!important}.miniCalDay{appearance:none;-webkit-appearance:none;color:#fff;cursor:pointer}.advanceCard{margin:0 0 18px}.seasonPanel{cursor:pointer}
+
+/* v0.6.153 player news art + dedicated detail screens */
+.topStoryLogo img[src*="headshots"]{width:96px;height:112px;object-fit:contain;object-position:center bottom}.dailyStory img[src*="headshots"]{height:92px;object-fit:contain;object-position:center bottom}.seasonDetail{padding-bottom:24px}
