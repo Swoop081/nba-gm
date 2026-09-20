@@ -49,3 +49,6 @@
 
 /* v0.6.134 Trade Finder draft-pick assets */
 .finderPickLine{display:flex;flex-wrap:wrap;justify-content:center;gap:7px;margin:-2px 18px 12px}.finderPickLine span{padding:7px 10px;border:1px solid #42617f;border-radius:9px;background:#0d2239;color:#9fdfff;font-size:10px;font-weight:900;letter-spacing:.08em}
+
+/* v0.6.137 selectable draft-pick targets */
+.finderPickTargets{margin-top:18px}.finderPickTarget{width:100%;display:flex;justify-content:space-between;align-items:center;gap:12px;margin:8px 0;padding:14px 16px;border:1px solid #29425e;border-radius:14px;background:#112943;color:#fff;text-align:left}.finderPickTarget b{font-size:13px}.finderPickTarget small{font-size:10px;color:#9eb1c8;text-align:right;max-width:48%}
