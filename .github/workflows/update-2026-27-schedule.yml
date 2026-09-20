@@ -1,7 +1,10 @@
-name: Update 2026-27 NBA Schedule
+name: Build bundled 2026-27 NBA Schedule
 on:
   workflow_dispatch:
-  permissions:
+  push:
+    branches: [main]
+    paths: ['scripts/import-2026-27-schedule.mjs']
+permissions:
   contents: write
 jobs:
   schedule:
@@ -12,10 +15,10 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/import-2026-27-schedule.mjs
-      - name: Commit schedule
+      - name: Commit bundled schedule
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add data/schedule-2026-27.json
-          git diff --cached --quiet || git commit -m "Refresh 2026-27 NBA schedule data"
+          git diff --cached --quiet || git commit -m "Bundle verified 2026-27 NBA schedule"
           git push
