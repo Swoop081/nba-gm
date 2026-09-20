@@ -1,13 +1,5 @@
 import fs from 'node:fs/promises';
-const SOURCE='https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/2026/league/00_full_schedule.json';
-const NBA_SOURCE='https://www.nba.com/news/2026-27-nba-regular-season-schedule';
-const map={'Atlanta Hawks':'ATL','Boston Celtics':'BOS','Brooklyn Nets':'BKN','Charlotte Hornets':'CHA','Chicago Bulls':'CHI','Cleveland Cavaliers':'CLE','Dallas Mavericks':'DAL','Denver Nuggets':'DEN','Detroit Pistons':'DET','Golden State Warriors':'GSW','Houston Rockets':'HOU','Indiana Pacers':'IND','LA Clippers':'LAC','Los Angeles Lakers':'LAL','Memphis Grizzlies':'MEM','Miami Heat':'MIA','Milwaukee Bucks':'MIL','Minnesota Timberwolves':'MIN','New Orleans Pelicans':'NOP','New York Knicks':'NYK','Oklahoma City Thunder':'OKC','Orlando Magic':'ORL','Philadelphia 76ers':'PHI','Phoenix Suns':'PHX','Portland Trail Blazers':'POR','Sacramento Kings':'SAC','San Antonio Spurs':'SAS','Toronto Raptors':'TOR','Utah Jazz':'UTA','Washington Wizards':'WAS'};
-const res=await fetch(SOURCE);if(!res.ok)throw new Error(`Schedule download failed: ${res.status}`);const raw=await res.json();
-const months=raw.lscd||[];const events=months.flatMap(m=>m.mscd?.g||[]);
-const games=events.map((g,i)=>{const date=(g.gdte||'').slice(0,10),home=g.h?.ta,away=g.v?.ta;return{id:i+1,date,tipUtc:g.utc||date,home,away,venue:g.an||'',played:false}}).filter(g=>g.date>='2026-10-20'&&g.date<='2027-04-11'&&g.home&&g.away).sort((a,b)=>a.date.localeCompare(b.date));
-if(games.length<1200)throw new Error(`Expected NBA regular-season scale schedule; received ${games.length} mapped games`);
-const opening=games.filter(g=>g.date==='2026-10-20');const sig=opening.map(g=>g.away+'@'+g.home).sort().join(',');
-if(opening.length!==3||sig!=='BOS@DET,OKC@SAS,PHI@NYK')throw new Error('Opening-night validation failed: '+sig);
-const tor=games.filter(g=>g.home==='TOR'||g.away==='TOR').slice(0,3).map(g=>g.date+':'+g.away+'@'+g.home).join(',');
-if(tor!=='2026-10-21:CHI@TOR,2026-10-23:TOR@WAS,2026-10-25:TOR@MIN')throw new Error('Toronto opening validation failed: '+tor);
-const out={season:'2026-27',source:NBA_SOURCE,mirror:SOURCE,generated:new Date().toISOString(),games};await fs.mkdir('data',{recursive:true});await fs.writeFile('data/schedule-2026-27.json',JSON.stringify(out));console.log(`Wrote and validated ${games.length} NBA games`);
+const SOURCE='https://gist.githubusercontent.com/brucehart/cd0e546bbe657c94643652455de08969/raw/03077f23acd5caf39b72b9a2332c95d91d18f6a0/nba-2026-27-regular-season-schedule.json';
+const res=await fetch(SOURCE);if(!res.ok)throw new Error('Schedule download failed: '+res.status);const raw=await res.json();
+console.log('TOP',Object.keys(raw)); console.log('SAMPLE',JSON.stringify(raw).slice(0,3000));
+throw new Error('SCHEMA_PROBE');
