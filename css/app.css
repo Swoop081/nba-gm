@@ -52,3 +52,6 @@
 
 /* v0.6.137 selectable draft-pick targets */
 .finderPickTargets{margin-top:18px}.finderPickTarget{width:100%;display:flex;justify-content:space-between;align-items:center;gap:12px;margin:8px 0;padding:14px 16px;border:1px solid #29425e;border-radius:14px;background:#112943;color:#fff;text-align:left}.finderPickTarget b{font-size:13px}.finderPickTarget small{font-size:10px;color:#9eb1c8;text-align:right;max-width:48%}
+
+/* v0.6.145 compact rolling calendar */
+.homeCalendar{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px;margin:14px 0 18px}.miniCalDay{aspect-ratio:1/1;min-width:0;border:1px solid #29425e;border-radius:12px;background:#112943;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;padding:17px 4px 5px;overflow:hidden}.miniCalDay.today{border-color:#7ddcff}.miniCalDay span{position:absolute;left:7px;top:6px;font-size:9px;font-weight:800;letter-spacing:.04em;color:#9eb1c8}.miniCalDay img{width:42px;height:42px;object-fit:contain;max-width:68%;max-height:55%}.miniCalDay small{font-size:8px;font-weight:800;color:#b9c8da;margin-top:2px;white-space:nowrap}.miniCalDay b{font-size:18px;color:#60748d}@media(max-width:390px){.homeCalendar{gap:5px}.miniCalDay{border-radius:10px}.miniCalDay img{width:36px;height:36px}.miniCalDay span{left:5px;top:5px;font-size:8px}}
