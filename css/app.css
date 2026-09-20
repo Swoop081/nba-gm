@@ -40,3 +40,6 @@
 
 /* v0.6.128 clean Trade Finder interaction layer */
 .finderScreen{position:relative;z-index:100;pointer-events:auto!important;isolation:isolate}.finderScreen *{pointer-events:auto}.finderScreen button{touch-action:manipulation;-webkit-tap-highlight-color:rgba(125,211,252,.18);cursor:pointer}.finderScreen .finderList,.finderScreen .finderTabs,.finderScreen .finderOffer{position:relative;z-index:101}.nav{z-index:200}
+
+/* v0.6.129 Trade Finder team carousel */
+.finderTeamNav{display:grid;grid-template-columns:52px 1fr 52px;align-items:center;gap:12px;margin:14px 0 16px;padding:12px 8px;border:1px solid #29425e;border-radius:18px;background:#112943}.finderTeamNav>div{display:grid;grid-template-columns:58px 1fr;grid-template-rows:auto auto auto;column-gap:12px;align-items:center;min-width:0}.finderTeamNav img{grid-row:1/4;width:58px;height:58px;object-fit:contain}.finderTeamNav span,.finderTeamNav small{font-size:10px;font-weight:800;letter-spacing:.16em;color:#9eb1c8}.finderTeamNav b{font-size:16px;line-height:1.15;color:#fff}.finderTeamNav .tradeArrow{width:46px;height:46px;border-radius:50%;font-size:30px}.finderTeamNav.single{grid-template-columns:1fr}.finderTeamNav.single>div{max-width:280px;margin:auto}
