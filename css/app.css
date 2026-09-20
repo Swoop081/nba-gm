@@ -61,3 +61,6 @@
 
 /* v0.6.147 daily news */
 .topStory{cursor:pointer}.storyDots{display:flex;justify-content:center;gap:6px;margin-top:10px}.storyDots span{width:6px;height:6px;border-radius:50%;background:#ffffff55}.storyDots span.on{background:#fff;width:18px;border-radius:5px}.dailyNews{display:grid;gap:12px;margin-top:12px}.dailyStory{display:grid;grid-template-columns:82px 1fr;gap:14px;padding:16px;border:1px solid #ffffff20;border-radius:20px;background:linear-gradient(145deg,#142b47dd,#0b1728dd)}.dailyStory.featured{border-color:#7dd3fc88}.dailyStory img{width:76px;height:76px;object-fit:contain}.dailyStory h2{margin:3px 0 6px;font-size:22px;line-height:1.05}.dailyStory p{margin:6px 0;color:#b7c8db;line-height:1.35}.dailyStory .newsDek{color:#fff;font-weight:700}
+
+/* v0.6.152 home cleanup */
+.homeScheduleTarget{display:none!important}.miniCalDay{appearance:none;-webkit-appearance:none;color:#fff;cursor:pointer}.advanceCard{margin:0 0 18px}.seasonPanel{cursor:pointer}
