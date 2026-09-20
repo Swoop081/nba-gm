@@ -1,9 +1,7 @@
 name: Update 2026-27 NBA Schedule
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '17 8 * * 1'
-permissions:
+  permissions:
   contents: write
 jobs:
   schedule:
