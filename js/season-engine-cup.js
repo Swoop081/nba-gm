@@ -15,4 +15,4 @@ season.schedule.sort((a,b)=>a.date.localeCompare(b.date)||(a.tipUtc||'').localeC
 export function loadSeason(){const s=base.loadSeason();return s?applyOfficialCupGroupSchedule(s):null}
 export async function createSeason(){return applyOfficialCupGroupSchedule(await base.createSeason())}
 
-export async function advanceOneDay(team){let s=loadSeason()||await createSeason();const today=s.currentDate,slate=(s.schedule||[]).filter(g=>g.date===today),userGame=slate.find(g=>!g.played&&(g.home===team||g.away===team));if(userGame)return{season:s,awaitingGame:userGame};for(const g of slate)if(!g.played)s=await base.simulateScheduledGame(s,g.id);const d=new Date(today+'T12:00:00Z');d.setUTCDate(d.getUTCDate()+1);s.currentDate=d.toISOString().slice(0,10);base.saveSeason(s);return{season:s,awaitingGame:null}}
+export async function advanceOneDay(team){let s=loadSeason()||await createSeason();const today=s.currentDate,slate=(s.schedule||[]).filter(g=>g.date===today),userGame=slate.find(g=>!g.played&&(g.home===team||g.away===team));if(userGame)return{season:s,awaitingGame:userGame};s=await base.completeCalendarDay(today);return{season:s,awaitingGame:null}}
