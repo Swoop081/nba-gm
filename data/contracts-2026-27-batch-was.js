@@ -15,6 +15,6 @@ export const CONTRACTS_BATCH_WAS={
 'Bub Carrington':C('WAS',4.90056,2,4.90056),
 'Will Riley':C('WAS',3.68832,3,3.68832),
 'Kyshawn George':C('WAS',3.108,2,3.108),
-'Justin Champagnie':C('WAS',2.667944,2,2.667944)
+'Justin Champagnie':C('WAS',2.667944,2,2.667944),'Tristan Vukcevic':C('WAS',2.449421,1,2.449421),'Sharife Cooper':C('WAS',2.449421,1,2.449421),'Anthony Gill':C('WAS',2.449421,1,2.449421),'Jamir Watkins':C('WAS',2.150917,3,2.150917),'Felix Okpara':C('WAS',0.678882,1,0.091)
 };
 export function applyAuditedBatchWas(p){const c=CONTRACTS_BATCH_WAS[p.name];if(!c||c.team!==p.team)return p;return{...p,contract:{...(p.contract||{}),salary:c.salary,years:c.years,guaranteed:c.guaranteed,type:p.contract?.type||'standard',verified:true}}}
