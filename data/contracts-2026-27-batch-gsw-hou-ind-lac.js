@@ -49,7 +49,7 @@ export const CONTRACTS_BATCH_GSW_HOU_IND_LAC={
 'Larry Nance Jr.':C('IND',2.449421,1,2.449421),
 'Johnny Furphy':C('IND',2.296271,2,2.296271),
 // LA Clippers — only entries matching the game's current LAC roster will apply.
-'Darius Garland':C('LAC',42.16651,2,87.05344),
+'Brandon Ingram':C('LAC',40,2,40),'Kyle Kuzma':C('LAC',20.345152,1,20.345152),'Darius Garland':C('LAC',42.16651,2,87.05344),
 'Max Strus':C('LAC',16.660836,1,16.660836),
 'Rui Hachimura':C('LAC',14,2,14),
 'Derrick Jones Jr.':C('LAC',10.47619,1,10.47619),
