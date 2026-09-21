@@ -12,7 +12,7 @@ const pools=new Map();for(const g of season.schedule){const k=pairKey(g.home,g.a
 for(const og of NBA_CUP_2026_GROUP_PLAY){const pool=pools.get(pairKey(og.home,og.away))||[];let g=pool.find(x=>!x.officialCupGroup);if(!g)continue;g.date=og.date;g.tipUtc=isoTip(og.date,og.timeEt);g.home=og.home;g.away=og.away;g.cup=true;g.cupStage='GROUP';g.cupGroup=GROUP_KEY[og.group];g.officialCupGroup=true;g.provisional=false;g.broadcastTimeEt=og.timeEt}
 for(const g of season.schedule){if(CUP_DATES.has(g.date)&&!g.officialCupGroup){const d=nearestOpenDate(season.schedule,g);if(d){g.date=d;g.tipUtc=`${d}T23:00:00Z`}}}
 season.schedule.sort((a,b)=>a.date.localeCompare(b.date)||(a.tipUtc||'').localeCompare(b.tipUtc||''));season.cup=season.cup||{};season.cup.officialGroupScheduleApplied=true;season.cup.groupScheduleGames=NBA_CUP_2026_GROUP_PLAY.length;season.scheduleSource=season.scheduleSource.includes('PROVISIONAL')?'82-GAME PROVISIONAL + OFFICIAL NBA CUP GROUP PLAY':'NBA 2026-27 OFFICIAL + NBA CUP GROUP PLAY';base.saveSeason(season);return season}
-export function loadSeason(){const s=base.loadSeason();if(!s)return null;if(!s.cup?.officialGroupScheduleApplied)return applyOfficialCupGroupSchedule(s);return s}
-export async function createSeason(){return applyOfficialCupGroupSchedule(await base.createSeason())}
+export function loadSeason(){return base.loadSeason()}
+export async function createSeason(){return base.createSeason()}
 
 export const advanceOneDay=base.advanceOneDay;
