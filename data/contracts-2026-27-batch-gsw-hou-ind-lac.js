@@ -31,7 +31,7 @@ export const CONTRACTS_BATCH_GSW_HOU_IND_LAC={
 'Julian Phillips':C('HOU',2.537526,1,2.537526),
 'Oscar Tshiebwe':C('HOU',2.537526,1,2.537526),
 'Isaiah Crawford':C('HOU',2.449421,2,5.113822),
-"Jae'Sean Tate":C('HOU',2.449421,1,2.449421),
+'Jae’Sean Tate':C('HOU',2.449421,1,2.449421),
 'Bogdan Bogdanovic':C('HOU',2.449421,1,2.449421),
 'Bruce Thornton':C('HOU',1.357763,4,1.357763),
 // Indiana
