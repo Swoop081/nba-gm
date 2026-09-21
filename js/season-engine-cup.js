@@ -1,6 +1,6 @@
-import * as base from './season-engine.js?v=0.6.194';
+import * as base from './season-engine.js?v=0.6.197';
 import {NBA_CUP_2026_GROUP_PLAY} from '../data/nba-cup-2026-group-play.js';
-export * from './season-engine.js?v=0.6.194';
+export * from './season-engine.js?v=0.6.197';
 const CUP_DATES=new Set(['2026-10-30','2026-11-06','2026-11-13','2026-11-20','2026-11-24','2026-11-25','2026-11-27']);
 const GROUP_KEY={'East A':'EA','East B':'EB','East C':'EC','West A':'WA','West B':'WB','West C':'WC'};
 const pairKey=(a,b)=>[a,b].sort().join('|');
@@ -14,3 +14,5 @@ for(const g of season.schedule){if(CUP_DATES.has(g.date)&&!g.officialCupGroup){c
 season.schedule.sort((a,b)=>a.date.localeCompare(b.date)||(a.tipUtc||'').localeCompare(b.tipUtc||''));season.schedule.forEach((g,i)=>g.id=i+1);season.cup=season.cup||{};season.cup.officialGroupScheduleApplied=true;season.cup.groupScheduleGames=NBA_CUP_2026_GROUP_PLAY.length;season.scheduleSource=season.scheduleSource.includes('PROVISIONAL')?'82-GAME PROVISIONAL + OFFICIAL NBA CUP GROUP PLAY':'NBA 2026-27 OFFICIAL + NBA CUP GROUP PLAY';base.saveSeason(season);return season}
 export function loadSeason(){const s=base.loadSeason();return s?applyOfficialCupGroupSchedule(s):null}
 export async function createSeason(){return applyOfficialCupGroupSchedule(await base.createSeason())}
+
+export async function advanceOneDay(team){let s=loadSeason()||await createSeason();const today=s.currentDate,slate=(s.schedule||[]).filter(g=>g.date===today),userGame=slate.find(g=>!g.played&&(g.home===team||g.away===team));if(userGame)return{season:s,awaitingGame:userGame};for(const g of slate)if(!g.played)s=await base.simulateScheduledGame(s,g.id);const d=new Date(today+'T12:00:00Z');d.setUTCDate(d.getUTCDate()+1);s.currentDate=d.toISOString().slice(0,10);base.saveSeason(s);return{season:s,awaitingGame:null}}
