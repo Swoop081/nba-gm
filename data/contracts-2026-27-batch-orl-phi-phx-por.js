@@ -3,7 +3,7 @@
 const C=(team,salary,years,guaranteed=null)=>({team,salary,years,guaranteed});
 export const CONTRACTS_BATCH={
 // Orlando
-'Franz Wagner':C('ORL',41.75469,4,185.5764),'Paolo Banchero':C('ORL',41.5,5,185.92),'Desmond Bane':C('ORL',39.44609,3,126.49953),'Jalen Suggs':C('ORL',32.4,4,88.8),'Wendell Carter Jr.':C('ORL',18.102,3,37.65216),'Jonathan Isaac':C('ORL',10.449421,1,10.449421),'Anthony Black':C('ORL',7.97088,1,7.97088),'Goga Bitadze':C('ORL',7.6,2,15.2),'Tristan da Silva':C('ORL',3.99672,2,3.99672),'Jase Richardson':C('ORL',2.95752,3,2.95752),'Noah Penda':C('ORL',2.296271,3,null),
+'Franz Wagner':C('ORL',41.75469,4,185.5764),'Paolo Banchero':C('ORL',41.5,5,185.92),'Desmond Bane':C('ORL',39.44609,3,126.49953),'Jalen Suggs':C('ORL',32.4,4,88.8),'Wendell Carter Jr.':C('ORL',18.102,3,37.65216),'Jonathan Isaac':C('ORL',10.449421,1,10.449421),'Anthony Black':C('ORL',7.97088,1,7.97088),'Goga Bitadze':C('ORL',7.6,2,15.2),'Tristan da Silva':C('ORL',3.99672,2,3.99672),'Jase Richardson':C('ORL',2.95752,3,2.95752),'Noah Penda':C('ORL',2.296271,3,null),'JD Davison':C('ORL',2.449421,1,2.449421),'Jamal Cain':C('ORL',2.449421,1,2.449421),'Colin Castleton':C('ORL',2.449421,1,2.449421),'Izaiyah Nelson':C('ORL',0.678882,1,0.091),'Alex Morales':C('ORL',0.678882,1,0.091),
 // Philadelphia
 'Joel Embiid':C('PHI',58.1,3,120.848),'Jaylen Brown':C('PHI',57.078728,3,183.045576),'Tyrese Maxey':C('PHI',40.77052,3,130.74684),'VJ Edgecombe':C('PHI',11.66388,3,11.66388),'Dean Wade':C('PHI',9,4,30),'Anfernee Simons':C('PHI',6,2,6),'LeBron James':C('PHI',3.876529,2,3.876529),
 // Phoenix
