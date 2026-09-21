@@ -47,7 +47,7 @@ export const RATINGS_2K27={
   },
   "Nickeil Alexander-Walker": {
     "rating2k": 83,
-    "position2k": "SG/SF",
+    "position2k": "SG/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 87,
@@ -92,7 +92,7 @@ export const RATINGS_2K27={
   },
   "C.J. McCollum": {
     "rating2k": 83,
-    "position2k": "SG/PG",
+    "position2k": "PG/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 85,
@@ -137,7 +137,7 @@ export const RATINGS_2K27={
   },
   "Dyson Daniels": {
     "rating2k": 81,
-    "position2k": "PG/SG",
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 50,
@@ -182,7 +182,7 @@ export const RATINGS_2K27={
   },
   "Onyeka Okongwu": {
     "rating2k": 81,
-    "position2k": "C/PF",
+    "position2k": "C",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 82,
@@ -227,7 +227,7 @@ export const RATINGS_2K27={
   },
   "Luguentz Dort": {
     "rating2k": 78,
-    "position2k": "SF/SG",
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 78,
@@ -312,7 +312,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/aaron-wiggins"
+    "source": "https://www.2kratings.com/aaron-wiggins",
+    "position2k": "SF/PF"
   },
   "Jock Landale": {
     "rating2k": 75,
@@ -356,7 +357,8 @@ export const RATINGS_2K27={
       "intangibles": 35,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jock-landale"
+    "source": "https://www.2kratings.com/jock-landale",
+    "position2k": "C"
   },
   "Buddy Hield": {
     "rating2k": 74,
@@ -400,7 +402,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/buddy-hield"
+    "source": "https://www.2kratings.com/buddy-hield",
+    "position2k": "SG/SF"
   },
   "Kingston Flemings": {
     "rating2k": 74,
@@ -444,7 +447,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kingston-flemings"
+    "source": "https://www.2kratings.com/kingston-flemings",
+    "position2k": "PG/SG"
   },
   "Corey Kispert": {
     "rating2k": 73,
@@ -758,7 +762,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/henri-veesaar"
+    "source": "https://www.2kratings.com/henri-veesaar",
+    "position2k": "C/PF"
   },
   "RayJ Dennis": {
     "rating2k": 69,
@@ -802,7 +807,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/rayj-dennis"
+    "source": "https://www.2kratings.com/rayj-dennis",
+    "position2k": "PG/SG"
   },
   "Keshon Gilbert": {
     "rating2k": 68,
@@ -846,7 +852,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/keshon-gilbert"
+    "source": "https://www.2kratings.com/keshon-gilbert",
+    "position2k": "SG/SF"
   },
   "LeBron James": {
     "rating2k": 91,
@@ -1430,7 +1437,8 @@ export const RATINGS_2K27={
       "intangibles": 80,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/hugo-gonzalez"
+    "source": "https://www.2kratings.com/hugo-gonzalez",
+    "position2k": "SF/PG"
   },
   "Jordan Walsh": {
     "rating2k": 74,
@@ -1519,7 +1527,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/ron-harper-jr"
+    "source": "https://www.2kratings.com/ron-harper-jr",
+    "position2k": "SF/SG"
   },
   "Chris Cenac Jr.": {
     "rating2k": 71,
@@ -1563,7 +1572,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/chris-cenac-jr"
+    "source": "https://www.2kratings.com/chris-cenac-jr",
+    "position2k": "C/PF"
   },
   "Amari Williams": {
     "rating2k": 69,
@@ -1607,7 +1617,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/amari-williams"
+    "source": "https://www.2kratings.com/amari-williams",
+    "position2k": "C/PF"
   },
   "Dillon Mitchell": {
     "rating2k": 68,
@@ -1651,7 +1662,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/dillon-mitchell"
+    "source": "https://www.2kratings.com/dillon-mitchell",
+    "position2k": "PF/SF"
   },
   "Michael Porter Jr.": {
     "rating2k": 85,
@@ -1920,7 +1932,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/egor-demin"
+    "source": "https://www.2kratings.com/egor-demin",
+    "position2k": "SG/PG"
   },
   "Day&#8217;Ron Sharpe": {
     "rating2k": 75,
@@ -1964,7 +1977,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/dayron-sharpe"
+    "source": "https://www.2kratings.com/dayron-sharpe",
+    "position2k": "C"
   },
   "Danny Wolf": {
     "rating2k": 75,
@@ -2098,7 +2112,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/mikel-brown-jr"
+    "source": "https://www.2kratings.com/mikel-brown-jr",
+    "position2k": "PG/SG"
   },
   "Josh Minott": {
     "rating2k": 74,
@@ -2232,7 +2247,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/ben-saraf"
+    "source": "https://www.2kratings.com/ben-saraf",
+    "position2k": "PG/SG"
   },
   "Drake Powell": {
     "rating2k": 72,
@@ -2276,7 +2292,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/drake-powell"
+    "source": "https://www.2kratings.com/drake-powell",
+    "position2k": "SG/PG"
   },
   "Chaney Johnson": {
     "rating2k": 71,
@@ -2320,7 +2337,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/chaney-johnson"
+    "source": "https://www.2kratings.com/chaney-johnson",
+    "position2k": "SF/PF"
   },
   "Grant Nelson": {
     "rating2k": 70,
@@ -2364,7 +2382,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/grant-nelson"
+    "source": "https://www.2kratings.com/grant-nelson",
+    "position2k": "PF/C"
   },
   "Joshua Jefferson": {
     "rating2k": 70,
@@ -2408,7 +2427,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/joshua-jefferson"
+    "source": "https://www.2kratings.com/joshua-jefferson",
+    "position2k": "PF/SF"
   },
   "Tyler Bilodeau": {
     "rating2k": 69,
@@ -2452,7 +2472,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tyler-bilodeau"
+    "source": "https://www.2kratings.com/tyler-bilodeau",
+    "position2k": "PF/C"
   },
   "Brandon Miller": {
     "rating2k": 85,
@@ -2721,7 +2742,8 @@ export const RATINGS_2K27={
       "intangibles": 85,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/moussa-diabate"
+    "source": "https://www.2kratings.com/moussa-diabate",
+    "position2k": "C/PF"
   },
   "Ryan Kalkbrenner": {
     "rating2k": 79,
@@ -2855,7 +2877,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/royce-oneale"
+    "source": "https://www.2kratings.com/royce-oneale",
+    "position2k": "PF/SF"
   },
   "Dorian Finney-Smith": {
     "rating2k": 74,
@@ -3034,7 +3057,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tidjane-salaun"
+    "source": "https://www.2kratings.com/tidjane-salaun",
+    "position2k": "PF/SF"
   },
   "Liam McNeeley": {
     "rating2k": 71,
@@ -3078,7 +3102,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/liam-mcneeley"
+    "source": "https://www.2kratings.com/liam-mcneeley",
+    "position2k": "SF/SG"
   },
   "Pat Connaughton": {
     "rating2k": 71,
@@ -3167,7 +3192,8 @@ export const RATINGS_2K27={
       "intangibles": 35,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/hannes-steinbach"
+    "source": "https://www.2kratings.com/hannes-steinbach",
+    "position2k": "C/PF"
   },
   "P.J. Hall": {
     "rating2k": 70,
@@ -3211,7 +3237,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/pj-hall"
+    "source": "https://www.2kratings.com/pj-hall",
+    "position2k": "C/PF"
   },
   "Christian Anderson": {
     "rating2k": 70,
@@ -3255,7 +3282,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/christian-anderson"
+    "source": "https://www.2kratings.com/christian-anderson",
+    "position2k": "PG"
   },
   "Kylan Boswell": {
     "rating2k": 68,
@@ -3299,7 +3327,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kylan-boswell"
+    "source": "https://www.2kratings.com/kylan-boswell",
+    "position2k": "PG"
   },
   "Michael Ajayi": {
     "rating2k": 68,
@@ -3343,7 +3372,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/michael-ajayi"
+    "source": "https://www.2kratings.com/michael-ajayi",
+    "position2k": "PF"
   },
   "Norman Powell": {
     "rating2k": 84,
@@ -3522,7 +3552,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/nicolas-claxton"
+    "source": "https://www.2kratings.com/nicolas-claxton",
+    "position2k": "C"
   },
   "Tre Jones": {
     "rating2k": 79,
@@ -3881,7 +3912,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/rob-dillingham"
+    "source": "https://www.2kratings.com/rob-dillingham",
+    "position2k": "PG/SG"
   },
   "Noa Essengue": {
     "rating2k": 72,
@@ -3925,7 +3957,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/noa-essengue"
+    "source": "https://www.2kratings.com/noa-essengue",
+    "position2k": "PF/SF"
   },
   "Dailyn Swain": {
     "rating2k": 71,
@@ -3969,7 +4002,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/dailyn-swain"
+    "source": "https://www.2kratings.com/dailyn-swain",
+    "position2k": "SF/SG"
   },
   "Tobe Awaka": {
     "rating2k": 68,
@@ -4013,7 +4047,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tobe-awaka"
+    "source": "https://www.2kratings.com/tobe-awaka",
+    "position2k": "PF"
   },
   "Jaylin Sellers": {
     "rating2k": 68,
@@ -4057,7 +4092,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jaylin-sellers"
+    "source": "https://www.2kratings.com/jaylin-sellers",
+    "position2k": "SG"
   },
   "Donovan Mitchell": {
     "rating2k": 93,
@@ -4146,7 +4182,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/james-harden"
+    "source": "https://www.2kratings.com/james-harden",
+    "position2k": "PG/SG"
   },
   "Evan Mobley": {
     "rating2k": 87,
@@ -4280,7 +4317,8 @@ export const RATINGS_2K27={
       "intangibles": 45,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/peyton-watson"
+    "source": "https://www.2kratings.com/peyton-watson",
+    "position2k": "SF/PF"
   },
   "Sam Merrill": {
     "rating2k": 77,
@@ -4414,7 +4452,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/mario-hezonja"
+    "source": "https://www.2kratings.com/mario-hezonja",
+    "position2k": "SF/PF"
   },
   "Thomas Bryant": {
     "rating2k": 74,
@@ -4458,7 +4497,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/thomas-bryant"
+    "source": "https://www.2kratings.com/thomas-bryant",
+    "position2k": "C"
   },
   "Craig Porter Jr.": {
     "rating2k": 72,
@@ -4502,7 +4542,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/craig-porter"
+    "source": "https://www.2kratings.com/craig-porter",
+    "position2k": "PG"
   },
   "Nae&#8217;Qwan Tomlin": {
     "rating2k": 71,
@@ -4546,7 +4587,8 @@ export const RATINGS_2K27={
       "intangibles": 35,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/naeqwan-tomlin"
+    "source": "https://www.2kratings.com/naeqwan-tomlin",
+    "position2k": "PF/C"
   },
   "Tyrese Proctor": {
     "rating2k": 71,
@@ -4590,7 +4632,8 @@ export const RATINGS_2K27={
       "intangibles": 35,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tyrese-proctor"
+    "source": "https://www.2kratings.com/tyrese-proctor",
+    "position2k": "SG/PG"
   },
   "Meleek Thomas": {
     "rating2k": 70,
@@ -4634,7 +4677,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/meleek-thomas"
+    "source": "https://www.2kratings.com/meleek-thomas",
+    "position2k": "SG/PG"
   },
   "Riley Minix": {
     "rating2k": 68,
@@ -4678,7 +4722,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/riley-minix"
+    "source": "https://www.2kratings.com/riley-minix",
+    "position2k": "PF/SF"
   },
   "Tristan Enaruna": {
     "rating2k": 68,
@@ -4722,7 +4767,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tristan-enaruna"
+    "source": "https://www.2kratings.com/tristan-enaruna",
+    "position2k": "SF/SG"
   },
   "Ernest Udeh Jr.": {
     "rating2k": 68,
@@ -4766,7 +4812,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/ernest-udeh-jr"
+    "source": "https://www.2kratings.com/ernest-udeh-jr",
+    "position2k": "C"
   },
   "Cooper Flagg": {
     "rating2k": 87,
@@ -5260,7 +5307,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/morez-johnson-jr"
+    "source": "https://www.2kratings.com/morez-johnson-jr",
+    "position2k": "PF/C"
   },
   "Caleb Martin": {
     "rating2k": 72,
@@ -5304,7 +5352,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/caleb-martin"
+    "source": "https://www.2kratings.com/caleb-martin",
+    "position2k": "PF/SF"
   },
   "Tarik Biberovic": {
     "rating2k": 71,
@@ -5348,7 +5397,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tarik-biberovic"
+    "source": "https://www.2kratings.com/tarik-biberovic",
+    "position2k": "SF/SG"
   },
   "Jett Howard": {
     "rating2k": 71,
@@ -5392,7 +5442,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jett-howard"
+    "source": "https://www.2kratings.com/jett-howard",
+    "position2k": "SG/SF"
   },
   "Moussa Cisse": {
     "rating2k": 71,
@@ -5436,7 +5487,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/moussa-cisse"
+    "source": "https://www.2kratings.com/moussa-cisse",
+    "position2k": "C"
   },
   "John Poulakidas": {
     "rating2k": 70,
@@ -5480,7 +5532,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/john-poulakidas"
+    "source": "https://www.2kratings.com/john-poulakidas",
+    "position2k": "SG/SF"
   },
   "Sergio De Larrea": {
     "rating2k": 69,
@@ -5524,7 +5577,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/sergio-de-larrea"
+    "source": "https://www.2kratings.com/sergio-de-larrea",
+    "position2k": "SG/PG"
   },
   "Tobi Lawal": {
     "rating2k": 69,
@@ -5568,7 +5622,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tobi-lawal"
+    "source": "https://www.2kratings.com/tobi-lawal",
+    "position2k": "PF/SF"
   },
   "Nikola Jokic": {
     "rating2k": 97,
@@ -5747,7 +5802,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/demar-derozan"
+    "source": "https://www.2kratings.com/demar-derozan",
+    "position2k": "SF/SG"
   },
   "Cameron Johnson": {
     "rating2k": 80,
@@ -6016,7 +6072,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/lonnie-walker-iv"
+    "source": "https://www.2kratings.com/lonnie-walker-iv",
+    "position2k": "SG/SF"
   },
   "Spencer Jones": {
     "rating2k": 72,
@@ -6105,7 +6162,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kj-simpson"
+    "source": "https://www.2kratings.com/kj-simpson",
+    "position2k": "PG"
   },
   "Alpha Diallo": {
     "rating2k": 71,
@@ -6149,7 +6207,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/alpha-diallo"
+    "source": "https://www.2kratings.com/alpha-diallo",
+    "position2k": "SF/SG"
   },
   "DaRon Holmes II": {
     "rating2k": 71,
@@ -6283,7 +6342,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/trevon-brazile"
+    "source": "https://www.2kratings.com/trevon-brazile",
+    "position2k": "PF/C"
   },
   "Bryce Hopkins": {
     "rating2k": 68,
@@ -6327,7 +6387,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/bryce-hopkins"
+    "source": "https://www.2kratings.com/bryce-hopkins",
+    "position2k": "PF/SF"
   },
   "Cade Cunningham": {
     "rating2k": 94,
@@ -6641,7 +6702,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/isaiah-joe"
+    "source": "https://www.2kratings.com/isaiah-joe",
+    "position2k": "SG/PG"
   },
   "Paul Reed": {
     "rating2k": 77,
@@ -6730,7 +6792,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kevin-huerter"
+    "source": "https://www.2kratings.com/kevin-huerter",
+    "position2k": "SG/SF"
   },
   "Ron Holland": {
     "rating2k": 75,
@@ -6774,7 +6837,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/ronald-holland"
+    "source": "https://www.2kratings.com/ronald-holland",
+    "position2k": "PF/SF"
   },
   "Javonte Green": {
     "rating2k": 75,
@@ -6818,7 +6882,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/javonte-green"
+    "source": "https://www.2kratings.com/javonte-green",
+    "position2k": "SF/SG"
   },
   "Taurean Prince": {
     "rating2k": 74,
@@ -6862,7 +6927,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/taurean-prince"
+    "source": "https://www.2kratings.com/taurean-prince",
+    "position2k": "SF/SG"
   },
   "Gary Harris": {
     "rating2k": 71,
@@ -6906,7 +6972,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/gary-harris"
+    "source": "https://www.2kratings.com/gary-harris",
+    "position2k": "SG/SF"
   },
   "Ebuka Okorie": {
     "rating2k": 71,
@@ -6950,7 +7017,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/ebuka-okorie"
+    "source": "https://www.2kratings.com/ebuka-okorie",
+    "position2k": "PG/SG"
   },
   "Isaac Jones": {
     "rating2k": 70,
@@ -6994,7 +7062,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/isaac-jones"
+    "source": "https://www.2kratings.com/isaac-jones",
+    "position2k": "PF/C"
   },
   "Elijah Harkless": {
     "rating2k": 70,
@@ -7038,7 +7107,8 @@ export const RATINGS_2K27={
       "intangibles": 45,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/elijah-harkless"
+    "source": "https://www.2kratings.com/elijah-harkless",
+    "position2k": "PG/SG"
   },
   "Ugonna Onyenso": {
     "rating2k": 69,
@@ -7082,7 +7152,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/ugonna-onyenso"
+    "source": "https://www.2kratings.com/ugonna-onyenso",
+    "position2k": "C"
   },
   "Tolu Smith": {
     "rating2k": 68,
@@ -7126,7 +7197,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tolu-smith"
+    "source": "https://www.2kratings.com/tolu-smith",
+    "position2k": "C/PF"
   },
   "Chaz Lanier": {
     "rating2k": 68,
@@ -7170,7 +7242,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/chaz-lanier"
+    "source": "https://www.2kratings.com/chaz-lanier",
+    "position2k": "SG/SF"
   },
   "Stephen Curry": {
     "rating2k": 93,
@@ -7354,7 +7427,7 @@ export const RATINGS_2K27={
   },
   "Brandin Podziemski": {
     "rating2k": 79,
-    "position2k": "PG/SG",
+    "position2k": "PG/PG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 83,
@@ -7484,7 +7557,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/al-horford"
+    "source": "https://www.2kratings.com/al-horford",
+    "position2k": "C/PF"
   },
   "De&#8217;Anthony Melton": {
     "rating2k": 76,
@@ -7528,7 +7602,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/deanthony-melton"
+    "source": "https://www.2kratings.com/deanthony-melton",
+    "position2k": "SG/PG"
   },
   "Moses Moody": {
     "rating2k": 76,
@@ -7572,7 +7647,8 @@ export const RATINGS_2K27={
       "intangibles": 45,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/moses-moody"
+    "source": "https://www.2kratings.com/moses-moody",
+    "position2k": "SF/SG"
   },
   "Brandon Williams": {
     "rating2k": 76,
@@ -7616,7 +7692,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/brandon-williams"
+    "source": "https://www.2kratings.com/brandon-williams",
+    "position2k": "PG/SG"
   },
   "Gary Payton II": {
     "rating2k": 75,
@@ -7660,7 +7737,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/gary-payton-ii"
+    "source": "https://www.2kratings.com/gary-payton-ii",
+    "position2k": "SF/PF"
   },
   "Will Richard": {
     "rating2k": 74,
@@ -7704,7 +7782,8 @@ export const RATINGS_2K27={
       "intangibles": 45,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/will-richard"
+    "source": "https://www.2kratings.com/will-richard",
+    "position2k": "SG/SF"
   },
   "Yaxel Lendeborg": {
     "rating2k": 73,
@@ -7748,7 +7827,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/yaxel-lendeborg"
+    "source": "https://www.2kratings.com/yaxel-lendeborg",
+    "position2k": "PF/SF"
   },
   "Dalen Terry": {
     "rating2k": 71,
@@ -7792,7 +7872,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/dalen-terry"
+    "source": "https://www.2kratings.com/dalen-terry",
+    "position2k": "SG/SF"
   },
   "Charles Bassey": {
     "rating2k": 71,
@@ -7836,7 +7917,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/charles-bassey"
+    "source": "https://www.2kratings.com/charles-bassey",
+    "position2k": "C"
   },
   "L.J. Cryer": {
     "rating2k": 71,
@@ -7880,7 +7962,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/lj-cryer"
+    "source": "https://www.2kratings.com/lj-cryer",
+    "position2k": "PG"
   },
   "Georges Niang": {
     "rating2k": 71,
@@ -7924,7 +8007,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/georges-niang"
+    "source": "https://www.2kratings.com/georges-niang",
+    "position2k": "PF"
   },
   "Malevy Leons": {
     "rating2k": 69,
@@ -7968,7 +8052,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/malevy-leons"
+    "source": "https://www.2kratings.com/malevy-leons",
+    "position2k": "PF/C"
   },
   "Kevin Durant": {
     "rating2k": 93,
@@ -8327,7 +8412,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tari-eason"
+    "source": "https://www.2kratings.com/tari-eason",
+    "position2k": "SF/SG"
   },
   "Steven Adams": {
     "rating2k": 74,
@@ -8371,7 +8457,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/steven-adams"
+    "source": "https://www.2kratings.com/steven-adams",
+    "position2k": "C"
   },
   "Clint Capela": {
     "rating2k": 74,
@@ -8415,7 +8502,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/clint-capela"
+    "source": "https://www.2kratings.com/clint-capela",
+    "position2k": "C"
   },
   "Bogdan Bogdanovic": {
     "rating2k": 73,
@@ -8459,7 +8547,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/bogdan-bogdanovic"
+    "source": "https://www.2kratings.com/bogdan-bogdanovic",
+    "position2k": "SG/SF"
   },
   "Jae&#8217;Sean Tate": {
     "rating2k": 72,
@@ -8503,7 +8592,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jaesean-tate"
+    "source": "https://www.2kratings.com/jaesean-tate",
+    "position2k": "SF/PF"
   },
   "Oscar Tshiebwe": {
     "rating2k": 71,
@@ -8547,7 +8637,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/oscar-tshiebwe"
+    "source": "https://www.2kratings.com/oscar-tshiebwe",
+    "position2k": "C/PF"
   },
   "Julian Phillips": {
     "rating2k": 71,
@@ -8591,7 +8682,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/julian-phillips"
+    "source": "https://www.2kratings.com/julian-phillips",
+    "position2k": "SF/PF"
   },
   "Bruce Thornton": {
     "rating2k": 70,
@@ -8635,7 +8727,8 @@ export const RATINGS_2K27={
       "intangibles": 45,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/bruce-thornton"
+    "source": "https://www.2kratings.com/bruce-thornton",
+    "position2k": "PG/SG"
   },
   "Isaiah Crawford": {
     "rating2k": 68,
@@ -8679,7 +8772,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/isaiah-crawford"
+    "source": "https://www.2kratings.com/isaiah-crawford",
+    "position2k": "SF/SG"
   },
   "Sean Pedulla": {
     "rating2k": 68,
@@ -8723,7 +8817,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/sean-pedulla"
+    "source": "https://www.2kratings.com/sean-pedulla",
+    "position2k": "PG"
   },
   "Quadir Copeland": {
     "rating2k": 68,
@@ -8767,7 +8862,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/quadir-copeland"
+    "source": "https://www.2kratings.com/quadir-copeland",
+    "position2k": "PG"
   },
   "Rafael Castro": {
     "rating2k": 68,
@@ -8811,7 +8907,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/rafael-castro"
+    "source": "https://www.2kratings.com/rafael-castro",
+    "position2k": "PF/C"
   },
   "Tyrese Haliburton": {
     "rating2k": 90,
@@ -8990,7 +9087,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/andrew-nembhard"
+    "source": "https://www.2kratings.com/andrew-nembhard",
+    "position2k": "PG/SG"
   },
   "T.J. McConnell": {
     "rating2k": 79,
@@ -9034,7 +9132,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tj-mcconnell"
+    "source": "https://www.2kratings.com/tj-mcconnell",
+    "position2k": "PG"
   },
   "Kelly Oubre Jr.": {
     "rating2k": 79,
@@ -9078,7 +9177,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kelly-oubre-jr"
+    "source": "https://www.2kratings.com/kelly-oubre-jr",
+    "position2k": "SF/PF"
   },
   "Aaron Nesmith": {
     "rating2k": 79,
@@ -9122,7 +9222,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/aaron-nesmith"
+    "source": "https://www.2kratings.com/aaron-nesmith",
+    "position2k": "SF/SG"
   },
   "Obi Toppin": {
     "rating2k": 78,
@@ -9166,7 +9267,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/obi-toppin"
+    "source": "https://www.2kratings.com/obi-toppin",
+    "position2k": "PF/C"
   },
   "Jarace Walker": {
     "rating2k": 78,
@@ -9210,7 +9312,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jarace-walker"
+    "source": "https://www.2kratings.com/jarace-walker",
+    "position2k": "SF/PF"
   },
   "Jay Huff": {
     "rating2k": 75,
@@ -9254,7 +9357,8 @@ export const RATINGS_2K27={
       "intangibles": 45,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jay-huff"
+    "source": "https://www.2kratings.com/jay-huff",
+    "position2k": "C"
   },
   "Quenton Jackson": {
     "rating2k": 73,
@@ -9298,7 +9402,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/quenton-jackson"
+    "source": "https://www.2kratings.com/quenton-jackson",
+    "position2k": "SG/PG"
   },
   "Ben Sheppard": {
     "rating2k": 73,
@@ -9342,7 +9447,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/ben-sheppard"
+    "source": "https://www.2kratings.com/ben-sheppard",
+    "position2k": "SG/SF"
   },
   "Kobe Brown": {
     "rating2k": 73,
@@ -9386,7 +9492,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kobe-brown"
+    "source": "https://www.2kratings.com/kobe-brown",
+    "position2k": "PF/SF"
   },
   "Johnny Furphy": {
     "rating2k": 72,
@@ -9430,7 +9537,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/johnny-furphy"
+    "source": "https://www.2kratings.com/johnny-furphy",
+    "position2k": "SF/SG"
   },
   "Larry Nance Jr.": {
     "rating2k": 71,
@@ -9474,7 +9582,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/larry-nance-jr"
+    "source": "https://www.2kratings.com/larry-nance-jr",
+    "position2k": "C/PF"
   },
   "Jalen Slawson": {
     "rating2k": 71,
@@ -9518,7 +9627,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jalen-slawson"
+    "source": "https://www.2kratings.com/jalen-slawson",
+    "position2k": "SF/PF"
   },
   "Braden Smith": {
     "rating2k": 70,
@@ -9562,7 +9672,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/braden-smith"
+    "source": "https://www.2kratings.com/braden-smith",
+    "position2k": "PG"
   },
   "Darius Garland": {
     "rating2k": 84,
@@ -9786,7 +9897,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/derrick-jones-jr"
+    "source": "https://www.2kratings.com/derrick-jones-jr",
+    "position2k": "PF/SF"
   },
   "Brook Lopez": {
     "rating2k": 77,
@@ -9830,7 +9942,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/brook-lopez"
+    "source": "https://www.2kratings.com/brook-lopez",
+    "position2k": "C"
   },
   "Bradley Beal": {
     "rating2k": 76,
@@ -9874,7 +9987,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/bradley-beal"
+    "source": "https://www.2kratings.com/bradley-beal",
+    "position2k": "SG/SF"
   },
   "Keaton Wagler": {
     "rating2k": 75,
@@ -9918,7 +10032,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/keaton-wagler"
+    "source": "https://www.2kratings.com/keaton-wagler",
+    "position2k": "SG/PG"
   },
   "Kris Dunn": {
     "rating2k": 75,
@@ -9962,7 +10077,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kris-dunn"
+    "source": "https://www.2kratings.com/kris-dunn",
+    "position2k": "PG/SG"
   },
   "Isaiah Jackson": {
     "rating2k": 74,
@@ -10006,7 +10122,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/isaiah-jackson"
+    "source": "https://www.2kratings.com/isaiah-jackson",
+    "position2k": "C/PF"
   },
   "Jordan Miller": {
     "rating2k": 74,
@@ -10050,7 +10167,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jordan-miller"
+    "source": "https://www.2kratings.com/jordan-miller",
+    "position2k": "SF/SG"
   },
   "Kobe Sanders": {
     "rating2k": 74,
@@ -10094,7 +10212,8 @@ export const RATINGS_2K27={
       "intangibles": 88,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kobe-sanders"
+    "source": "https://www.2kratings.com/kobe-sanders",
+    "position2k": "PG/SF"
   },
   "Jalen Pickett": {
     "rating2k": 73,
@@ -10138,7 +10257,8 @@ export const RATINGS_2K27={
       "intangibles": 90,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jalen-pickett"
+    "source": "https://www.2kratings.com/jalen-pickett",
+    "position2k": "PG/SG"
   },
   "Yanic Konan Niederhäuser": {
     "rating2k": 73,
@@ -10182,7 +10302,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/yanic-konan-niederhauser"
+    "source": "https://www.2kratings.com/yanic-konan-niederhauser",
+    "position2k": "C/PF"
   },
   "Gradey Dick": {
     "rating2k": 73,
@@ -10226,7 +10347,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/gradey-dick"
+    "source": "https://www.2kratings.com/gradey-dick",
+    "position2k": "SF/SG"
   },
   "Johni Broome": {
     "rating2k": 70,
@@ -10270,7 +10392,8 @@ export const RATINGS_2K27={
       "intangibles": 35,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/johni-broome"
+    "source": "https://www.2kratings.com/johni-broome",
+    "position2k": "PF/C"
   },
   "Cam Christie": {
     "rating2k": 70,
@@ -10314,7 +10437,8 @@ export const RATINGS_2K27={
       "intangibles": 90,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/cam-christie"
+    "source": "https://www.2kratings.com/cam-christie",
+    "position2k": "SG/SF"
   },
   "Baba Miller": {
     "rating2k": 69,
@@ -10358,7 +10482,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/baba-miller"
+    "source": "https://www.2kratings.com/baba-miller",
+    "position2k": "PF/SF"
   },
   "Nick Martinelli": {
     "rating2k": 68,
@@ -10402,7 +10527,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/nick-martinelli"
+    "source": "https://www.2kratings.com/nick-martinelli",
+    "position2k": "SF/PF"
   },
   "Jamarion Sharp": {
     "rating2k": 67,
@@ -10446,7 +10572,8 @@ export const RATINGS_2K27={
       "intangibles": 90,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jamarion-sharp"
+    "source": "https://www.2kratings.com/jamarion-sharp",
+    "position2k": "C"
   },
   "Luka Doncic": {
     "rating2k": 96,
@@ -10715,7 +10842,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jarred-vanderbilt"
+    "source": "https://www.2kratings.com/jarred-vanderbilt",
+    "position2k": "PF/C"
   },
   "Sandro Mamukelashvili": {
     "rating2k": 76,
@@ -10849,7 +10977,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jake-laravia"
+    "source": "https://www.2kratings.com/jake-laravia",
+    "position2k": "SF/SG"
   },
   "Dalton Knecht": {
     "rating2k": 74,
@@ -10893,7 +11022,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/dalton-knecht"
+    "source": "https://www.2kratings.com/dalton-knecht",
+    "position2k": "SF/SG"
   },
   "Matisse Thybulle": {
     "rating2k": 74,
@@ -10937,7 +11067,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/matisse-thybulle"
+    "source": "https://www.2kratings.com/matisse-thybulle",
+    "position2k": "SG/SF"
   },
   "Jaden Hardy": {
     "rating2k": 73,
@@ -10981,7 +11112,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jaden-hardy"
+    "source": "https://www.2kratings.com/jaden-hardy",
+    "position2k": "SG/PG"
   },
   "Cameron Carr": {
     "rating2k": 72,
@@ -11025,7 +11157,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/cameron-carr"
+    "source": "https://www.2kratings.com/cameron-carr",
+    "position2k": "SG/SF"
   },
   "Kevon Looney": {
     "rating2k": 71,
@@ -11069,7 +11202,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kevon-looney"
+    "source": "https://www.2kratings.com/kevon-looney",
+    "position2k": "C"
   },
   "Bronny James Jr.": {
     "rating2k": 70,
@@ -11113,7 +11247,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/bronny-james"
+    "source": "https://www.2kratings.com/bronny-james",
+    "position2k": "PG/SG"
   },
   "Adou Thiero": {
     "rating2k": 70,
@@ -11157,7 +11292,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/adou-thiero"
+    "source": "https://www.2kratings.com/adou-thiero",
+    "position2k": "SF/PF"
   },
   "Chris Mañon": {
     "rating2k": 68,
@@ -11201,7 +11337,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/chris-manon"
+    "source": "https://www.2kratings.com/chris-manon",
+    "position2k": "SG/SF"
   },
   "Arthur Kaluma": {
     "rating2k": 68,
@@ -11245,7 +11382,8 @@ export const RATINGS_2K27={
       "intangibles": 35,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/arthur-kaluma"
+    "source": "https://www.2kratings.com/arthur-kaluma",
+    "position2k": "SF"
   },
   "AK Okereke": {
     "rating2k": 68,
@@ -11289,7 +11427,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/ak-okereke"
+    "source": "https://www.2kratings.com/ak-okereke",
+    "position2k": "PF"
   },
   "Ty Jerome": {
     "rating2k": 80,
@@ -11603,7 +11742,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/isaiah-stewart"
+    "source": "https://www.2kratings.com/isaiah-stewart",
+    "position2k": "C/PF"
   },
   "G.G. Jackson": {
     "rating2k": 77,
@@ -11647,7 +11787,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/gregory-jackson-ii"
+    "source": "https://www.2kratings.com/gregory-jackson-ii",
+    "position2k": "PF/SF"
   },
   "Cam Spencer": {
     "rating2k": 76,
@@ -11691,7 +11832,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/cam-spencer"
+    "source": "https://www.2kratings.com/cam-spencer",
+    "position2k": "SG/PG"
   },
   "Scotty Pippen Jr.": {
     "rating2k": 75,
@@ -11735,7 +11877,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/scotty-pippen-jr"
+    "source": "https://www.2kratings.com/scotty-pippen-jr",
+    "position2k": "PG/SG"
   },
   "Olivier-Maxence Prosper": {
     "rating2k": 75,
@@ -11779,7 +11922,8 @@ export const RATINGS_2K27={
       "intangibles": 45,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/olivier-maxence-prosper"
+    "source": "https://www.2kratings.com/olivier-maxence-prosper",
+    "position2k": "C/PF"
   },
   "Javon Small": {
     "rating2k": 74,
@@ -11823,7 +11967,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/javon-small"
+    "source": "https://www.2kratings.com/javon-small",
+    "position2k": "PG/SG"
   },
   "Kris Murray": {
     "rating2k": 74,
@@ -11867,7 +12012,8 @@ export const RATINGS_2K27={
       "intangibles": 85,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kris-murray"
+    "source": "https://www.2kratings.com/kris-murray",
+    "position2k": "PF/SF"
   },
   "Walter Clayton Jr.": {
     "rating2k": 74,
@@ -11911,7 +12057,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/walter-clayton-jr"
+    "source": "https://www.2kratings.com/walter-clayton-jr",
+    "position2k": "PG/SG"
   },
   "D&#8217;Angelo Russell": {
     "rating2k": 73,
@@ -11955,7 +12102,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/dangelo-russell"
+    "source": "https://www.2kratings.com/dangelo-russell",
+    "position2k": "PG/SG"
   },
   "Quinten Post": {
     "rating2k": 73,
@@ -11999,7 +12147,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/quinten-post"
+    "source": "https://www.2kratings.com/quinten-post",
+    "position2k": "C"
   },
   "Taylor Hendricks": {
     "rating2k": 73,
@@ -12043,7 +12192,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/taylor-hendricks"
+    "source": "https://www.2kratings.com/taylor-hendricks",
+    "position2k": "PF/SF"
   },
   "Jahmai Mashack": {
     "rating2k": 72,
@@ -12087,7 +12237,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jahmai-mashack"
+    "source": "https://www.2kratings.com/jahmai-mashack",
+    "position2k": "SG/SF"
   },
   "Karim Lopez": {
     "rating2k": 72,
@@ -12131,7 +12282,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/karim-lopez"
+    "source": "https://www.2kratings.com/karim-lopez",
+    "position2k": "SF/PF"
   },
   "Micah Peavy": {
     "rating2k": 71,
@@ -12175,7 +12327,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/micah-peavy"
+    "source": "https://www.2kratings.com/micah-peavy",
+    "position2k": "SF/SG"
   },
   "Jordan Hawkins": {
     "rating2k": 71,
@@ -12219,7 +12372,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jordan-hawkins"
+    "source": "https://www.2kratings.com/jordan-hawkins",
+    "position2k": "SG/PG"
   },
   "Giannis Antetokounmpo": {
     "rating2k": 96,
@@ -12353,7 +12507,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/bobby-portis"
+    "source": "https://www.2kratings.com/bobby-portis",
+    "position2k": "C/PF"
   },
   "Andrew Wiggins": {
     "rating2k": 79,
@@ -12487,7 +12642,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/pelle-larsson"
+    "source": "https://www.2kratings.com/pelle-larsson",
+    "position2k": "SF/SG"
   },
   "Davion Mitchell": {
     "rating2k": 77,
@@ -12531,7 +12687,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/davion-mitchell"
+    "source": "https://www.2kratings.com/davion-mitchell",
+    "position2k": "PG/SG"
   },
   "Klay Thompson": {
     "rating2k": 76,
@@ -12620,7 +12777,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/simone-fontecchio"
+    "source": "https://www.2kratings.com/simone-fontecchio",
+    "position2k": "SF/PF"
   },
   "Dru Smith": {
     "rating2k": 73,
@@ -12664,7 +12822,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/dru-smith"
+    "source": "https://www.2kratings.com/dru-smith",
+    "position2k": "PG/SG"
   },
   "Nikola Jovic": {
     "rating2k": 73,
@@ -12708,7 +12867,8 @@ export const RATINGS_2K27={
       "intangibles": 80,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/nikola-jovic"
+    "source": "https://www.2kratings.com/nikola-jovic",
+    "position2k": "C/PF"
   },
   "Nick Richards": {
     "rating2k": 73,
@@ -12752,7 +12912,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/nick-richards"
+    "source": "https://www.2kratings.com/nick-richards",
+    "position2k": "C"
   },
   "Myron Gardner": {
     "rating2k": 72,
@@ -12796,7 +12957,8 @@ export const RATINGS_2K27={
       "intangibles": 35,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/myron-gardner"
+    "source": "https://www.2kratings.com/myron-gardner",
+    "position2k": "SF/SG"
   },
   "Keshad Johnson": {
     "rating2k": 70,
@@ -12840,7 +13002,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/keshad-johnson"
+    "source": "https://www.2kratings.com/keshad-johnson",
+    "position2k": "PF/SF"
   },
   "Ryan Conwell": {
     "rating2k": 69,
@@ -12884,7 +13047,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/ryan-conwell"
+    "source": "https://www.2kratings.com/ryan-conwell",
+    "position2k": "SG/SF"
   },
   "Vladislav Goldin": {
     "rating2k": 68,
@@ -12928,7 +13092,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/vladislav-goldin"
+    "source": "https://www.2kratings.com/vladislav-goldin",
+    "position2k": "C"
   },
   "Tre Donaldson": {
     "rating2k": 68,
@@ -12972,7 +13137,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tre-donaldson"
+    "source": "https://www.2kratings.com/tre-donaldson",
+    "position2k": "PG"
   },
   "Tyler Herro": {
     "rating2k": 85,
@@ -13151,7 +13317,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/myles-turner"
+    "source": "https://www.2kratings.com/myles-turner",
+    "position2k": "C"
   },
   "Kel&#8217;el Ware": {
     "rating2k": 79,
@@ -13195,7 +13362,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kelel-ware"
+    "source": "https://www.2kratings.com/kelel-ware",
+    "position2k": "C/PF"
   },
   "Caris LeVert": {
     "rating2k": 78,
@@ -13239,7 +13407,8 @@ export const RATINGS_2K27={
       "intangibles": 45,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/caris-levert"
+    "source": "https://www.2kratings.com/caris-levert",
+    "position2k": "SF/SG"
   },
   "Jaime Jaquez Jr.": {
     "rating2k": 78,
@@ -13283,7 +13452,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jaime-jaquez-jr"
+    "source": "https://www.2kratings.com/jaime-jaquez-jr",
+    "position2k": "PF/SF"
   },
   "Kyle Kuzma": {
     "rating2k": 77,
@@ -13327,7 +13497,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kyle-kuzma"
+    "source": "https://www.2kratings.com/kyle-kuzma",
+    "position2k": "SF/PF"
   },
   "Ousmane Dieng": {
     "rating2k": 76,
@@ -13371,7 +13542,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/ousmane-dieng"
+    "source": "https://www.2kratings.com/ousmane-dieng",
+    "position2k": "SF/PF"
   },
   "A.J. Green": {
     "rating2k": 74,
@@ -13415,7 +13587,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/aj-green"
+    "source": "https://www.2kratings.com/aj-green",
+    "position2k": "SG/SF"
   },
   "Kasparas Jakucionis": {
     "rating2k": 74,
@@ -13459,7 +13632,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kasparas-jakucionis"
+    "source": "https://www.2kratings.com/kasparas-jakucionis",
+    "position2k": "PG/SG"
   },
   "Gary Trent Jr.": {
     "rating2k": 74,
@@ -13503,7 +13677,8 @@ export const RATINGS_2K27={
       "intangibles": 45,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/gary-trent-jr"
+    "source": "https://www.2kratings.com/gary-trent-jr",
+    "position2k": "SG/SF"
   },
   "Brayden Burries": {
     "rating2k": 73,
@@ -13547,7 +13722,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/brayden-burries"
+    "source": "https://www.2kratings.com/brayden-burries",
+    "position2k": "SG/SF"
   },
   "Jericho Sims": {
     "rating2k": 72,
@@ -13591,7 +13767,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jericho-sims"
+    "source": "https://www.2kratings.com/jericho-sims",
+    "position2k": "C"
   },
   "Kam Jones": {
     "rating2k": 72,
@@ -13635,7 +13812,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kam-jones"
+    "source": "https://www.2kratings.com/kam-jones",
+    "position2k": "SG/PG"
   },
   "Nate Ament": {
     "rating2k": 72,
@@ -13679,7 +13857,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/nate-ament"
+    "source": "https://www.2kratings.com/nate-ament",
+    "position2k": "SF/PF"
   },
   "Pete Nance": {
     "rating2k": 71,
@@ -13723,7 +13902,8 @@ export const RATINGS_2K27={
       "intangibles": 45,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/pete-nance"
+    "source": "https://www.2kratings.com/pete-nance",
+    "position2k": "PF/C"
   },
   "Cormac Ryan": {
     "rating2k": 70,
@@ -13767,7 +13947,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/cormac-ryan"
+    "source": "https://www.2kratings.com/cormac-ryan",
+    "position2k": "SG/SF"
   },
   "Bogoljub Markovic": {
     "rating2k": 69,
@@ -13811,7 +13992,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/bogoljub-markovic"
+    "source": "https://www.2kratings.com/bogoljub-markovic",
+    "position2k": "PF/C"
   },
   "Anthony Edwards": {
     "rating2k": 95,
@@ -14035,7 +14217,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/ayo-dosunmu"
+    "source": "https://www.2kratings.com/ayo-dosunmu",
+    "position2k": "SG/PG"
   },
   "Donte DiVincenzo": {
     "rating2k": 78,
@@ -14079,7 +14262,8 @@ export const RATINGS_2K27={
       "intangibles": 45,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/donte-divincenzo"
+    "source": "https://www.2kratings.com/donte-divincenzo",
+    "position2k": "PG/SG"
   },
   "Terrence Shannon Jr.": {
     "rating2k": 75,
@@ -14123,7 +14307,8 @@ export const RATINGS_2K27={
       "intangibles": 45,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/terrence-shannon"
+    "source": "https://www.2kratings.com/terrence-shannon",
+    "position2k": "SF/PF"
   },
   "Trey Lyles": {
     "rating2k": 74,
@@ -14167,7 +14352,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/trey-lyles"
+    "source": "https://www.2kratings.com/trey-lyles",
+    "position2k": "PF/C"
   },
   "Bones Hyland": {
     "rating2k": 74,
@@ -14211,7 +14397,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/bones-hyland"
+    "source": "https://www.2kratings.com/bones-hyland",
+    "position2k": "PG/SG"
   },
   "Cody Williams": {
     "rating2k": 73,
@@ -14255,7 +14442,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/cody-williams"
+    "source": "https://www.2kratings.com/cody-williams",
+    "position2k": "PF/SF"
   },
   "Jonathan Kuminga": {
     "rating2k": 73,
@@ -14299,7 +14487,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jonathan-kuminga"
+    "source": "https://www.2kratings.com/jonathan-kuminga",
+    "position2k": "PF/SF"
   },
   "Jaylen Clark": {
     "rating2k": 72,
@@ -14343,7 +14532,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jaylen-clark"
+    "source": "https://www.2kratings.com/jaylen-clark",
+    "position2k": "SG/SF"
   },
   "Joan Beringer": {
     "rating2k": 72,
@@ -14387,7 +14577,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/joan-beringer"
+    "source": "https://www.2kratings.com/joan-beringer",
+    "position2k": "C"
   },
   "Isaiah Evans": {
     "rating2k": 70,
@@ -14431,7 +14622,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/isaiah-evans"
+    "source": "https://www.2kratings.com/isaiah-evans",
+    "position2k": "SG/SF"
   },
   "Enrique Freeman": {
     "rating2k": 69,
@@ -14475,7 +14667,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/enrique-freeman"
+    "source": "https://www.2kratings.com/enrique-freeman",
+    "position2k": "PF/C"
   },
   "Zyon Pullin": {
     "rating2k": 68,
@@ -14519,7 +14712,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/zyon-pullin"
+    "source": "https://www.2kratings.com/zyon-pullin",
+    "position2k": "PG/SG"
   },
   "Rocco Zikarsky": {
     "rating2k": 68,
@@ -14563,7 +14757,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/rocco-zikarsky"
+    "source": "https://www.2kratings.com/rocco-zikarsky",
+    "position2k": "C"
   },
   "Zion Williamson": {
     "rating2k": 85,
@@ -14922,7 +15117,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/bennedict-mathurin"
+    "source": "https://www.2kratings.com/bennedict-mathurin",
+    "position2k": "SG/SF"
   },
   "Yves Missi": {
     "rating2k": 75,
@@ -14966,7 +15162,8 @@ export const RATINGS_2K27={
       "intangibles": 45,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/yves-missi"
+    "source": "https://www.2kratings.com/yves-missi",
+    "position2k": "C/PF"
   },
   "Jordan Poole": {
     "rating2k": 74,
@@ -15010,7 +15207,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jordan-poole"
+    "source": "https://www.2kratings.com/jordan-poole",
+    "position2k": "SG/PG"
   },
   "DeAndre Jordan": {
     "rating2k": 74,
@@ -15054,7 +15252,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/deandre-jordan"
+    "source": "https://www.2kratings.com/deandre-jordan",
+    "position2k": "C"
   },
   "Karlo Matkovic": {
     "rating2k": 74,
@@ -15098,7 +15297,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/karlo-matkovic"
+    "source": "https://www.2kratings.com/karlo-matkovic",
+    "position2k": "PF/C"
   },
   "Bryce McGowens": {
     "rating2k": 73,
@@ -15142,7 +15342,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/bryce-mcgowens"
+    "source": "https://www.2kratings.com/bryce-mcgowens",
+    "position2k": "SF/SG"
   },
   "Trendon Watford": {
     "rating2k": 73,
@@ -15186,7 +15387,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/trendon-watford"
+    "source": "https://www.2kratings.com/trendon-watford",
+    "position2k": "PF/PG"
   },
   "Christian Koloko": {
     "rating2k": 71,
@@ -15230,7 +15432,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/christian-koloko"
+    "source": "https://www.2kratings.com/christian-koloko",
+    "position2k": "C"
   },
   "Kobe Bufkin": {
     "rating2k": 70,
@@ -15274,7 +15477,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kobe-bufkin"
+    "source": "https://www.2kratings.com/kobe-bufkin",
+    "position2k": "SG/PG"
   },
   "Caleb Houstan": {
     "rating2k": 70,
@@ -15318,7 +15522,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/caleb-houstan"
+    "source": "https://www.2kratings.com/caleb-houstan",
+    "position2k": "SF/SG"
   },
   "A.J. Johnson": {
     "rating2k": 70,
@@ -15362,7 +15567,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/aj-johnson"
+    "source": "https://www.2kratings.com/aj-johnson",
+    "position2k": "SG/PG"
   },
   "Taj Gibson": {
     "rating2k": 70,
@@ -15406,7 +15612,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/taj-gibson"
+    "source": "https://www.2kratings.com/taj-gibson",
+    "position2k": "C"
   },
   "Jaron Pierre Jr.": {
     "rating2k": 68,
@@ -15450,7 +15657,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jaron-pierre-jr"
+    "source": "https://www.2kratings.com/jaron-pierre-jr",
+    "position2k": "SG/SG"
   },
   "Malik Dia": {
     "rating2k": 68,
@@ -15494,7 +15702,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/malik-dia"
+    "source": "https://www.2kratings.com/malik-dia",
+    "position2k": "PF"
   },
   "Karl-Anthony Towns": {
     "rating2k": 93,
@@ -15763,7 +15972,8 @@ export const RATINGS_2K27={
       "intangibles": 85,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/landry-shamet"
+    "source": "https://www.2kratings.com/landry-shamet",
+    "position2k": "SG/SF"
   },
   "Jose Alvarado": {
     "rating2k": 77,
@@ -15807,7 +16017,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jose-alvarado"
+    "source": "https://www.2kratings.com/jose-alvarado",
+    "position2k": "PG/SG"
   },
   "Andre Drummond": {
     "rating2k": 76,
@@ -15851,7 +16062,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/andre-drummond"
+    "source": "https://www.2kratings.com/andre-drummond",
+    "position2k": "C"
   },
   "Jordan Clarkson": {
     "rating2k": 76,
@@ -15895,7 +16107,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jordan-clarkson"
+    "source": "https://www.2kratings.com/jordan-clarkson",
+    "position2k": "SG/SF"
   },
   "Tyler Kolek": {
     "rating2k": 73,
@@ -15939,7 +16152,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tyler-kolek"
+    "source": "https://www.2kratings.com/tyler-kolek",
+    "position2k": "PG/SG"
   },
   "Mohamed Diawara": {
     "rating2k": 72,
@@ -15983,7 +16197,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/mohamed-diawara"
+    "source": "https://www.2kratings.com/mohamed-diawara",
+    "position2k": "PF/C"
   },
   "Pacome Dadiet": {
     "rating2k": 69,
@@ -16027,7 +16242,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/pacome-dadiet"
+    "source": "https://www.2kratings.com/pacome-dadiet",
+    "position2k": "SF/PF"
   },
   "Shai Gilgeous-Alexander": {
     "rating2k": 97,
@@ -16121,7 +16337,7 @@ export const RATINGS_2K27={
   },
   "Jalen Williams": {
     "rating2k": 85,
-    "position2k": "SF/PF",
+    "position2k": "C/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 77,
@@ -16386,7 +16602,8 @@ export const RATINGS_2K27={
       "intangibles": 90,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jared-mccain"
+    "source": "https://www.2kratings.com/jared-mccain",
+    "position2k": "PG/SG"
   },
   "Jaylin Williams": {
     "rating2k": 77,
@@ -16430,7 +16647,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jaylin-williams"
+    "source": "https://www.2kratings.com/jaylin-williams",
+    "position2k": "C"
   },
   "Kenrich Williams": {
     "rating2k": 76,
@@ -16474,7 +16692,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kenrich-williams"
+    "source": "https://www.2kratings.com/kenrich-williams",
+    "position2k": "PF/C"
   },
   "Aday Mara": {
     "rating2k": 73,
@@ -16518,7 +16737,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/aday-mara"
+    "source": "https://www.2kratings.com/aday-mara",
+    "position2k": "C"
   },
   "Nikola Topic": {
     "rating2k": 72,
@@ -16562,7 +16782,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/nikola-topic"
+    "source": "https://www.2kratings.com/nikola-topic",
+    "position2k": "PG/SG"
   },
   "Thomas Sorber": {
     "rating2k": 71,
@@ -16606,7 +16827,8 @@ export const RATINGS_2K27={
       "intangibles": 45,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/thomas-sorber"
+    "source": "https://www.2kratings.com/thomas-sorber",
+    "position2k": "C/PF"
   },
   "Bennett Stirtz": {
     "rating2k": 70,
@@ -16650,7 +16872,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/bennett-stirtz"
+    "source": "https://www.2kratings.com/bennett-stirtz",
+    "position2k": "PG/SG"
   },
   "Brooks Barnhizer": {
     "rating2k": 69,
@@ -16694,7 +16917,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/brooks-barnhizer"
+    "source": "https://www.2kratings.com/brooks-barnhizer",
+    "position2k": "SF/SG"
   },
   "Otega Oweh": {
     "rating2k": 69,
@@ -16738,7 +16962,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/otega-oweh"
+    "source": "https://www.2kratings.com/otega-oweh",
+    "position2k": "SG/SF"
   },
   "Josh Dix": {
     "rating2k": 68,
@@ -16782,7 +17007,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/josh-dix"
+    "source": "https://www.2kratings.com/josh-dix",
+    "position2k": "SG"
   },
   "Paolo Banchero": {
     "rating2k": 87,
@@ -16961,7 +17187,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jalen-suggs"
+    "source": "https://www.2kratings.com/jalen-suggs",
+    "position2k": "PG/SG"
   },
   "Anthony Black": {
     "rating2k": 80,
@@ -17005,7 +17232,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/anthony-black"
+    "source": "https://www.2kratings.com/anthony-black",
+    "position2k": "PG/SG"
   },
   "Wendell Carter Jr.": {
     "rating2k": 79,
@@ -17049,7 +17277,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/wendell-carter-jr"
+    "source": "https://www.2kratings.com/wendell-carter-jr",
+    "position2k": "C/PF"
   },
   "Nikola Vucevic": {
     "rating2k": 78,
@@ -17093,7 +17322,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/nikola-vucevic"
+    "source": "https://www.2kratings.com/nikola-vucevic",
+    "position2k": "C"
   },
   "Tristan da Silva": {
     "rating2k": 76,
@@ -17137,7 +17367,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tristan-da-silva"
+    "source": "https://www.2kratings.com/tristan-da-silva",
+    "position2k": "SF/PF"
   },
   "Goga Bitadze": {
     "rating2k": 74,
@@ -17181,7 +17412,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/goga-bitadze"
+    "source": "https://www.2kratings.com/goga-bitadze",
+    "position2k": "C"
   },
   "Jevon Carter": {
     "rating2k": 73,
@@ -17225,7 +17457,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jevon-carter"
+    "source": "https://www.2kratings.com/jevon-carter",
+    "position2k": "PG/SG"
   },
   "Noah Penda": {
     "rating2k": 73,
@@ -17269,7 +17502,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/noah-penda"
+    "source": "https://www.2kratings.com/noah-penda",
+    "position2k": "PF/SF"
   },
   "Jonathan Isaac": {
     "rating2k": 72,
@@ -17313,7 +17547,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jonathan-isaac"
+    "source": "https://www.2kratings.com/jonathan-isaac",
+    "position2k": "PF/C"
   },
   "Jamal Cain": {
     "rating2k": 72,
@@ -17357,7 +17592,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jamal-cain"
+    "source": "https://www.2kratings.com/jamal-cain",
+    "position2k": "SF/PF"
   },
   "Jase Richardson": {
     "rating2k": 72,
@@ -17401,7 +17637,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jase-richardson"
+    "source": "https://www.2kratings.com/jase-richardson",
+    "position2k": "SG/PG"
   },
   "Malaki Branham": {
     "rating2k": 70,
@@ -17445,7 +17682,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/malaki-branham"
+    "source": "https://www.2kratings.com/malaki-branham",
+    "position2k": "SG/PG"
   },
   "Colin Castleton": {
     "rating2k": 70,
@@ -17489,7 +17727,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/colin-castleton"
+    "source": "https://www.2kratings.com/colin-castleton",
+    "position2k": "PF/C"
   },
   "Izaiyah Nelson": {
     "rating2k": 69,
@@ -17533,7 +17772,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/izaiyah-nelson"
+    "source": "https://www.2kratings.com/izaiyah-nelson",
+    "position2k": "C/PF"
   },
   "Alex Morales": {
     "rating2k": 68,
@@ -17577,7 +17817,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/alex-morales"
+    "source": "https://www.2kratings.com/alex-morales",
+    "position2k": "SG/SF"
   },
   "Tyrese Maxey": {
     "rating2k": 92,
@@ -17891,7 +18132,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kentavious-caldwell-pope"
+    "source": "https://www.2kratings.com/kentavious-caldwell-pope",
+    "position2k": "SG/SF"
   },
   "Adem Bona": {
     "rating2k": 75,
@@ -17935,7 +18177,8 @@ export const RATINGS_2K27={
       "intangibles": 80,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/adem-bona"
+    "source": "https://www.2kratings.com/adem-bona",
+    "position2k": "C"
   },
   "Dominick Barlow": {
     "rating2k": 74,
@@ -17979,7 +18222,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/dominick-barlow"
+    "source": "https://www.2kratings.com/dominick-barlow",
+    "position2k": "PF/C"
   },
   "Justin Edwards": {
     "rating2k": 74,
@@ -18023,7 +18267,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/justin-edwards"
+    "source": "https://www.2kratings.com/justin-edwards",
+    "position2k": "SF/PF"
   },
   "Rayan Rupert": {
     "rating2k": 73,
@@ -18067,7 +18312,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/rayan-rupert"
+    "source": "https://www.2kratings.com/rayan-rupert",
+    "position2k": "SF/SG"
   },
   "Caleb Love": {
     "rating2k": 73,
@@ -18111,7 +18357,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/caleb-love"
+    "source": "https://www.2kratings.com/caleb-love",
+    "position2k": "PG/SG"
   },
   "Ariel Hukporti": {
     "rating2k": 72,
@@ -18155,7 +18402,8 @@ export const RATINGS_2K27={
       "intangibles": 85,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/ariel-hukporti"
+    "source": "https://www.2kratings.com/ariel-hukporti",
+    "position2k": "C/PF"
   },
   "Jabari Walker": {
     "rating2k": 71,
@@ -18199,7 +18447,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jabari-walker"
+    "source": "https://www.2kratings.com/jabari-walker",
+    "position2k": "PF/SF"
   },
   "Labaron Philon Jr.": {
     "rating2k": 71,
@@ -18243,7 +18492,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/labaron-philon-jr"
+    "source": "https://www.2kratings.com/labaron-philon-jr",
+    "position2k": "PG/SG"
   },
   "Devin Booker": {
     "rating2k": 91,
@@ -18292,7 +18542,7 @@ export const RATINGS_2K27={
   },
   "Dillon Brooks": {
     "rating2k": 82,
-    "position2k": "SF/SG",
+    "position2k": "SF/PF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 80,
@@ -18337,7 +18587,7 @@ export const RATINGS_2K27={
   },
   "Jalen Green": {
     "rating2k": 81,
-    "position2k": "SG/PG",
+    "position2k": "SG/SF",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 79,
@@ -18422,7 +18672,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/miles-bridges"
+    "source": "https://www.2kratings.com/miles-bridges",
+    "position2k": "PF/SF"
   },
   "Collin Gillespie": {
     "rating2k": 79,
@@ -18466,7 +18717,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/collin-gillespie"
+    "source": "https://www.2kratings.com/collin-gillespie",
+    "position2k": "PG"
   },
   "Mark Williams": {
     "rating2k": 78,
@@ -18555,7 +18807,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/luke-kennard"
+    "source": "https://www.2kratings.com/luke-kennard",
+    "position2k": "SG/PG"
   },
   "Oso Ighodaro": {
     "rating2k": 75,
@@ -18599,7 +18852,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/oso-ighodaro"
+    "source": "https://www.2kratings.com/oso-ighodaro",
+    "position2k": "C/PF"
   },
   "Pat Spencer": {
     "rating2k": 75,
@@ -18643,7 +18897,8 @@ export const RATINGS_2K27={
       "intangibles": 80,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/pat-spencer"
+    "source": "https://www.2kratings.com/pat-spencer",
+    "position2k": "PG/SG"
   },
   "Jordan Goodwin": {
     "rating2k": 75,
@@ -18687,7 +18942,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jordan-goodwin"
+    "source": "https://www.2kratings.com/jordan-goodwin",
+    "position2k": "PG/SG"
   },
   "Ryan Dunn": {
     "rating2k": 74,
@@ -18731,7 +18987,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/ryan-dunn"
+    "source": "https://www.2kratings.com/ryan-dunn",
+    "position2k": "PF/SF"
   },
   "Rasheer Fleming": {
     "rating2k": 73,
@@ -18775,7 +19032,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/rasheer-fleming"
+    "source": "https://www.2kratings.com/rasheer-fleming",
+    "position2k": "PF/C"
   },
   "Khaman Maluach": {
     "rating2k": 73,
@@ -18819,7 +19077,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/khaman-maluach"
+    "source": "https://www.2kratings.com/khaman-maluach",
+    "position2k": "C"
   },
   "Jamaree Bouyea": {
     "rating2k": 71,
@@ -18863,7 +19122,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jamaree-bouyea"
+    "source": "https://www.2kratings.com/jamaree-bouyea",
+    "position2k": "PG/SG"
   },
   "Haywood Highsmith": {
     "rating2k": 71,
@@ -18907,7 +19167,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/haywood-highsmith"
+    "source": "https://www.2kratings.com/haywood-highsmith",
+    "position2k": "SF/PF"
   },
   "Koa Peat": {
     "rating2k": 71,
@@ -18951,7 +19212,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/koa-peat"
+    "source": "https://www.2kratings.com/koa-peat",
+    "position2k": "PF/SF"
   },
   "Koby Brea": {
     "rating2k": 68,
@@ -18995,7 +19257,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/koby-brea"
+    "source": "https://www.2kratings.com/koby-brea",
+    "position2k": "SG/SF"
   },
   "CJ Huntley": {
     "rating2k": 68,
@@ -19039,11 +19302,12 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/cj-huntley"
+    "source": "https://www.2kratings.com/cj-huntley",
+    "position2k": "PF/C"
   },
   "Deni Avdija": {
     "rating2k": 88,
-    "position2k": "SF/PF",
+    "position2k": "SF/SG",
     "potentialGrade": "A",
     "ratings": {
       "threePointShot": 75,
@@ -19218,7 +19482,8 @@ export const RATINGS_2K27={
       "intangibles": 35,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jrue-holiday"
+    "source": "https://www.2kratings.com/jrue-holiday",
+    "position2k": "PG/SG"
   },
   "Donovan Clingan": {
     "rating2k": 82,
@@ -19262,7 +19527,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/donovan-clingan"
+    "source": "https://www.2kratings.com/donovan-clingan",
+    "position2k": "C"
   },
   "Shaedon Sharpe": {
     "rating2k": 81,
@@ -19306,7 +19572,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/shaedon-sharpe"
+    "source": "https://www.2kratings.com/shaedon-sharpe",
+    "position2k": "SG/PG"
   },
   "Toumani Camara": {
     "rating2k": 80,
@@ -19350,7 +19617,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/toumani-camara"
+    "source": "https://www.2kratings.com/toumani-camara",
+    "position2k": "PF/SF"
   },
   "Scoot Henderson": {
     "rating2k": 79,
@@ -19394,7 +19662,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/scoot-henderson"
+    "source": "https://www.2kratings.com/scoot-henderson",
+    "position2k": "PG/SG"
   },
   "Robert Williams III": {
     "rating2k": 78,
@@ -19753,7 +20022,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/john-tonje"
+    "source": "https://www.2kratings.com/john-tonje",
+    "position2k": "SF/SG"
   },
   "Chris Youngblood": {
     "rating2k": 68,
@@ -19797,7 +20067,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/chris-youngblood"
+    "source": "https://www.2kratings.com/chris-youngblood",
+    "position2k": "SG/SF"
   },
   "Jayson Kent": {
     "rating2k": 68,
@@ -19841,7 +20112,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jayson-kent"
+    "source": "https://www.2kratings.com/jayson-kent",
+    "position2k": "SF/SG"
   },
   "Domantas Sabonis": {
     "rating2k": 85,
@@ -19885,7 +20157,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/domantas-sabonis"
+    "source": "https://www.2kratings.com/domantas-sabonis",
+    "position2k": "C"
   },
   "Zach LaVine": {
     "rating2k": 82,
@@ -19929,7 +20202,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/zach-lavine"
+    "source": "https://www.2kratings.com/zach-lavine",
+    "position2k": "SG/SF"
   },
   "Malik Monk": {
     "rating2k": 79,
@@ -19973,7 +20247,8 @@ export const RATINGS_2K27={
       "intangibles": 85,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/malik-monk"
+    "source": "https://www.2kratings.com/malik-monk",
+    "position2k": "SG/PG"
   },
   "Keegan Murray": {
     "rating2k": 79,
@@ -20017,7 +20292,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/keegan-murray"
+    "source": "https://www.2kratings.com/keegan-murray",
+    "position2k": "PF/SF"
   },
   "Maxime Raynaud": {
     "rating2k": 79,
@@ -20061,7 +20337,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/maxime-raynaud"
+    "source": "https://www.2kratings.com/maxime-raynaud",
+    "position2k": "C"
   },
   "De&#8217;Andre Hunter": {
     "rating2k": 77,
@@ -20105,7 +20382,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/deandre-hunter"
+    "source": "https://www.2kratings.com/deandre-hunter",
+    "position2k": "SF/PF"
   },
   "Precious Achiuwa": {
     "rating2k": 76,
@@ -20149,7 +20427,8 @@ export const RATINGS_2K27={
       "intangibles": 35,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/precious-achiuwa"
+    "source": "https://www.2kratings.com/precious-achiuwa",
+    "position2k": "PF/C"
   },
   "Nique Clifford": {
     "rating2k": 75,
@@ -20193,7 +20472,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/nique-clifford"
+    "source": "https://www.2kratings.com/nique-clifford",
+    "position2k": "SF/SG"
   },
   "Darius Acuff Jr.": {
     "rating2k": 75,
@@ -20237,7 +20517,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/darius-acuff-jr"
+    "source": "https://www.2kratings.com/darius-acuff-jr",
+    "position2k": "PG/S"
   },
   "Ben Simmons": {
     "rating2k": 74,
@@ -20281,7 +20562,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/ben-simmons"
+    "source": "https://www.2kratings.com/ben-simmons",
+    "position2k": "PG/C"
   },
   "Dylan Cardwell": {
     "rating2k": 74,
@@ -20325,7 +20607,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/dylan-cardwell"
+    "source": "https://www.2kratings.com/dylan-cardwell",
+    "position2k": "C/PF"
   },
   "Daeqwon Plowden": {
     "rating2k": 71,
@@ -20369,7 +20652,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/daeqwon-plowden"
+    "source": "https://www.2kratings.com/daeqwon-plowden",
+    "position2k": "SF/SG"
   },
   "Jonathan Mogbo": {
     "rating2k": 71,
@@ -20413,7 +20697,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jonathan-mogbo"
+    "source": "https://www.2kratings.com/jonathan-mogbo",
+    "position2k": "PF/C"
   },
   "Alex Karaban": {
     "rating2k": 71,
@@ -20457,7 +20742,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/alex-karaban"
+    "source": "https://www.2kratings.com/alex-karaban",
+    "position2k": "PF/SF"
   },
   "Emanuel Sharp": {
     "rating2k": 68,
@@ -20501,7 +20787,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/emanuel-sharp"
+    "source": "https://www.2kratings.com/emanuel-sharp",
+    "position2k": "SG/PG"
   },
   "Adam Flagler": {
     "rating2k": 67,
@@ -20545,7 +20832,8 @@ export const RATINGS_2K27={
       "intangibles": 80,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/adam-flagler"
+    "source": "https://www.2kratings.com/adam-flagler",
+    "position2k": "PG/SG"
   },
   "Victor Wembanyama": {
     "rating2k": 97,
@@ -20634,7 +20922,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/stephon-castle"
+    "source": "https://www.2kratings.com/stephon-castle",
+    "position2k": "SG/PG"
   },
   "Dylan Harper": {
     "rating2k": 85,
@@ -20678,7 +20967,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/dylan-harper"
+    "source": "https://www.2kratings.com/dylan-harper",
+    "position2k": "PG/SG"
   },
   "De&#8217;Aaron Fox": {
     "rating2k": 84,
@@ -20722,7 +21012,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/deaaron-fox"
+    "source": "https://www.2kratings.com/deaaron-fox",
+    "position2k": "PG/SG"
   },
   "Tobias Harris": {
     "rating2k": 81,
@@ -20766,7 +21057,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tobias-harris"
+    "source": "https://www.2kratings.com/tobias-harris",
+    "position2k": "PF/SF"
   },
   "Devin Vassell": {
     "rating2k": 81,
@@ -20810,7 +21102,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/devin-vassell"
+    "source": "https://www.2kratings.com/devin-vassell",
+    "position2k": "SF/SG"
   },
   "Keldon Johnson": {
     "rating2k": 79,
@@ -20854,7 +21147,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/keldon-johnson"
+    "source": "https://www.2kratings.com/keldon-johnson",
+    "position2k": "SG/SF"
   },
   "Julian Champagnie": {
     "rating2k": 79,
@@ -20898,7 +21192,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/julian-champagnie"
+    "source": "https://www.2kratings.com/julian-champagnie",
+    "position2k": "PF/SF"
   },
   "Luke Kornet": {
     "rating2k": 76,
@@ -20942,7 +21237,8 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/luke-kornet"
+    "source": "https://www.2kratings.com/luke-kornet",
+    "position2k": "C"
   },
   "Harrison Barnes": {
     "rating2k": 76,
@@ -20986,7 +21282,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/harrison-barnes"
+    "source": "https://www.2kratings.com/harrison-barnes",
+    "position2k": "PF/SF"
   },
   "Carter Bryant": {
     "rating2k": 76,
@@ -21030,7 +21327,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/carter-bryant"
+    "source": "https://www.2kratings.com/carter-bryant",
+    "position2k": "SF/PF"
   },
   "Jordan McLaughlin": {
     "rating2k": 71,
@@ -21074,7 +21372,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jordan-mclaughlin"
+    "source": "https://www.2kratings.com/jordan-mclaughlin",
+    "position2k": "PG"
   },
   "Tarris Reed Jr.": {
     "rating2k": 71,
@@ -21118,7 +21417,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tarris-reed-jr"
+    "source": "https://www.2kratings.com/tarris-reed-jr",
+    "position2k": "C"
   },
   "David Jones-Garcia": {
     "rating2k": 70,
@@ -21162,7 +21462,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/david-jones-garcia"
+    "source": "https://www.2kratings.com/david-jones-garcia",
+    "position2k": "SG/PG"
   },
   "Jayden Quaintance": {
     "rating2k": 70,
@@ -21206,7 +21507,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jayden-quaintance"
+    "source": "https://www.2kratings.com/jayden-quaintance",
+    "position2k": "C/PF"
   },
   "Taelon Peter": {
     "rating2k": 70,
@@ -21250,7 +21552,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/taelon-peter"
+    "source": "https://www.2kratings.com/taelon-peter",
+    "position2k": "PG/SG"
   },
   "Ja&#8217;Kobi Gillespie": {
     "rating2k": 69,
@@ -21294,7 +21597,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jakobi-gillespie"
+    "source": "https://www.2kratings.com/jakobi-gillespie",
+    "position2k": "PG/SG"
   },
   "Maliq Brown": {
     "rating2k": 69,
@@ -21338,7 +21642,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/maliq-brown"
+    "source": "https://www.2kratings.com/maliq-brown",
+    "position2k": "PF/C"
   },
   "Kawhi Leonard": {
     "rating2k": 93,
@@ -21697,7 +22002,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jakobe-walter"
+    "source": "https://www.2kratings.com/jakobe-walter",
+    "position2k": "SG/SF"
   },
   "Jamison Battle": {
     "rating2k": 74,
@@ -22191,7 +22497,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jaren-jackson-jr"
+    "source": "https://www.2kratings.com/jaren-jackson-jr",
+    "position2k": "PF/C"
   },
   "Lauri Markkanen": {
     "rating2k": 86,
@@ -22235,7 +22542,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/lauri-markkanen"
+    "source": "https://www.2kratings.com/lauri-markkanen",
+    "position2k": "SF/PF"
   },
   "Keyonte George": {
     "rating2k": 84,
@@ -22279,7 +22587,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/keyonte-george"
+    "source": "https://www.2kratings.com/keyonte-george",
+    "position2k": "PG/SG"
   },
   "Isaiah Collier": {
     "rating2k": 80,
@@ -22323,7 +22632,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/isaiah-collier"
+    "source": "https://www.2kratings.com/isaiah-collier",
+    "position2k": "PG/SG"
   },
   "Brice Sensabaugh": {
     "rating2k": 79,
@@ -22367,7 +22677,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/brice-sensabaugh"
+    "source": "https://www.2kratings.com/brice-sensabaugh",
+    "position2k": "SF/SG"
   },
   "Darryn Peterson": {
     "rating2k": 79,
@@ -22411,7 +22722,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/darryn-peterson"
+    "source": "https://www.2kratings.com/darryn-peterson",
+    "position2k": "SG/PG"
   },
   "Ace Bailey": {
     "rating2k": 79,
@@ -22455,7 +22767,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/ace-bailey"
+    "source": "https://www.2kratings.com/ace-bailey",
+    "position2k": "SG/SF"
   },
   "Kyle Filipowski": {
     "rating2k": 78,
@@ -22499,7 +22812,8 @@ export const RATINGS_2K27={
       "intangibles": 80,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kyle-filipowski"
+    "source": "https://www.2kratings.com/kyle-filipowski",
+    "position2k": "C/PF"
   },
   "Jusuf Nurkic": {
     "rating2k": 76,
@@ -22543,7 +22857,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jusuf-nurkic"
+    "source": "https://www.2kratings.com/jusuf-nurkic",
+    "position2k": "C"
   },
   "Jaxson Hayes": {
     "rating2k": 76,
@@ -22587,7 +22902,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jaxson-hayes"
+    "source": "https://www.2kratings.com/jaxson-hayes",
+    "position2k": "C/PF"
   },
   "Josh Okogie": {
     "rating2k": 74,
@@ -22631,7 +22947,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/josh-okogie"
+    "source": "https://www.2kratings.com/josh-okogie",
+    "position2k": "SG/SF"
   },
   "Josh Green": {
     "rating2k": 73,
@@ -22675,7 +22992,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/josh-green"
+    "source": "https://www.2kratings.com/josh-green",
+    "position2k": "SF/SG"
   },
   "Sviatoslav Mykhailiuk": {
     "rating2k": 73,
@@ -22719,7 +23037,8 @@ export const RATINGS_2K27={
       "intangibles": 50,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/sviatoslav-mykhailiuk"
+    "source": "https://www.2kratings.com/sviatoslav-mykhailiuk",
+    "position2k": "SG/SF"
   },
   "Blake Hinson": {
     "rating2k": 71,
@@ -22763,7 +23082,8 @@ export const RATINGS_2K27={
       "intangibles": 80,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/blake-hinson"
+    "source": "https://www.2kratings.com/blake-hinson",
+    "position2k": "PF/SF"
   },
   "Mohamed Bamba": {
     "rating2k": 70,
@@ -22807,7 +23127,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/mohamed-bamba"
+    "source": "https://www.2kratings.com/mohamed-bamba",
+    "position2k": "C"
   },
   "Harrison Ingram": {
     "rating2k": 69,
@@ -22851,7 +23172,8 @@ export const RATINGS_2K27={
       "intangibles": 30,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/harrison-ingram"
+    "source": "https://www.2kratings.com/harrison-ingram",
+    "position2k": "SF/SG"
   },
   "Trey Alexander": {
     "rating2k": 68,
@@ -22895,7 +23217,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/trey-alexander"
+    "source": "https://www.2kratings.com/trey-alexander",
+    "position2k": "PG/S"
   },
   "Tamar Bates": {
     "rating2k": 68,
@@ -22939,7 +23262,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tamar-bates"
+    "source": "https://www.2kratings.com/tamar-bates",
+    "position2k": "SG/SF"
   },
   "Anthony Davis": {
     "rating2k": 90,
@@ -22983,7 +23307,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/anthony-davis"
+    "source": "https://www.2kratings.com/anthony-davis",
+    "position2k": "PF/C"
   },
   "Trae Young": {
     "rating2k": 87,
@@ -23027,7 +23352,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/trae-young"
+    "source": "https://www.2kratings.com/trae-young",
+    "position2k": "PG"
   },
   "Alexandre Sarr": {
     "rating2k": 83,
@@ -23071,7 +23397,8 @@ export const RATINGS_2K27={
       "intangibles": 85,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/alexandre-sarr"
+    "source": "https://www.2kratings.com/alexandre-sarr",
+    "position2k": "C/PF"
   },
   "Kyshawn George": {
     "rating2k": 80,
@@ -23115,7 +23442,8 @@ export const RATINGS_2K27={
       "intangibles": 85,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/kyshawn-george"
+    "source": "https://www.2kratings.com/kyshawn-george",
+    "position2k": "PF/SF"
   },
   "AJ Dybantsa": {
     "rating2k": 79,
@@ -23159,7 +23487,8 @@ export const RATINGS_2K27={
       "intangibles": 65,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/aj-dybantsa"
+    "source": "https://www.2kratings.com/aj-dybantsa",
+    "position2k": "SF/PF"
   },
   "Deandre Ayton": {
     "rating2k": 78,
@@ -23203,7 +23532,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/deandre-ayton"
+    "source": "https://www.2kratings.com/deandre-ayton",
+    "position2k": "C"
   },
   "Bilal Coulibaly": {
     "rating2k": 78,
@@ -23247,7 +23577,8 @@ export const RATINGS_2K27={
       "intangibles": 55,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/bilal-coulibaly"
+    "source": "https://www.2kratings.com/bilal-coulibaly",
+    "position2k": "SF/SG"
   },
   "Tre Johnson": {
     "rating2k": 78,
@@ -23291,7 +23622,8 @@ export const RATINGS_2K27={
       "intangibles": 70,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tre-johnson"
+    "source": "https://www.2kratings.com/tre-johnson",
+    "position2k": "SG/PG"
   },
   "Will Riley": {
     "rating2k": 78,
@@ -23335,7 +23667,8 @@ export const RATINGS_2K27={
       "intangibles": 60,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/will-riley"
+    "source": "https://www.2kratings.com/will-riley",
+    "position2k": "PF/SF"
   },
   "Khris Middleton": {
     "rating2k": 76,
@@ -23379,7 +23712,8 @@ export const RATINGS_2K27={
       "intangibles": 35,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/khris-middleton"
+    "source": "https://www.2kratings.com/khris-middleton",
+    "position2k": "SF/PF"
   },
   "Justin Champagnie": {
     "rating2k": 76,
@@ -23423,7 +23757,8 @@ export const RATINGS_2K27={
       "intangibles": 75,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/justin-champagnie"
+    "source": "https://www.2kratings.com/justin-champagnie",
+    "position2k": "PF/SF"
   },
   "Carlton Carrington": {
     "rating2k": 76,
@@ -23467,7 +23802,8 @@ export const RATINGS_2K27={
       "intangibles": 80,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/bub-carrington"
+    "source": "https://www.2kratings.com/bub-carrington",
+    "position2k": "PG/SG"
   },
   "Tre Mann": {
     "rating2k": 73,
@@ -23556,7 +23892,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/jamir-watkins"
+    "source": "https://www.2kratings.com/jamir-watkins",
+    "position2k": "SF/PF"
   },
   "Tristan Vukcevic": {
     "rating2k": 72,
@@ -23600,7 +23937,8 @@ export const RATINGS_2K27={
       "intangibles": 25,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/tristan-vukcevic"
+    "source": "https://www.2kratings.com/tristan-vukcevic",
+    "position2k": "C/PF"
   },
   "Felix Okpara": {
     "rating2k": 69,
@@ -23644,6 +23982,7 @@ export const RATINGS_2K27={
       "intangibles": 40,
       "potential": 92
     },
-    "source": "https://www.2kratings.com/felix-okpara"
+    "source": "https://www.2kratings.com/felix-okpara",
+    "position2k": "C"
   }
 };
