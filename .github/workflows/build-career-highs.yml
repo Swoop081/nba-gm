@@ -1,4 +1,5 @@
 name: Build career highs
+# historical game-log verification
 on:
   workflow_dispatch:
   push:
