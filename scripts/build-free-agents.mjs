@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-const base='https://www.2kratings.com',listUrl=base+'/teams/free-agency';
+// workflow trigger v2\nconst base='https://www.2kratings.com',listUrl=base+'/teams/free-agency';
 const html=await (await fetch(listUrl,{headers:{'user-agent':'Mozilla/5.0'}})).text();
 const slugs=[...new Set([...html.matchAll(/href="\/([a-z0-9-]+)"/g)].map(m=>m[1]).filter(x=>!['teams','lists','about','contact'].includes(x)))];
 const strip=s=>String(s||'').replace(/&amp;/g,'&').replace(/&#x27;/g,"'").replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
