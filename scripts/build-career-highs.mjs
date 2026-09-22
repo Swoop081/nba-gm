@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 
+// rerun 2026-09-22 after Kaluma rookie correction
 const root=process.cwd(),tmp=path.join(root,'.career-highs-tmp');fs.mkdirSync(tmp,{recursive:true});
 const files=[path.join(root,'data','league.js'),...fs.readdirSync(path.join(root,'data','teams')).filter(x=>x.endsWith('.js')).map(x=>path.join(root,'data','teams',x))];
 const players=new Map();
