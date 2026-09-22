@@ -1,0 +1,26 @@
+name: Build free agents
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/build-free-agents.mjs'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build NBA 2K27 free-agent dataset
+        run: node scripts/build-free-agents.mjs
+      - name: Commit dataset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/free-agents-2k27.js data/free-agents-audit.json
+          git diff --cached --quiet || git commit -m "Generate NBA 2K27 free agents"
+          git push
