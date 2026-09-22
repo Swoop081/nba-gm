@@ -1,5 +1,6 @@
 name: Build career highs
 # historical game-log verification
+# rerun after rookie experience corrections
 on:
   workflow_dispatch:
   push:
