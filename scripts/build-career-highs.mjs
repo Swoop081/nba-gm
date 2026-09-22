@@ -11,7 +11,7 @@ for(const file of files){
 }
 const roster=[...players.values()].sort((a,b)=>a.name.localeCompare(b.name));
 const veteran=roster.filter(p=>p.exp>0),rookie=roster.filter(p=>p.exp===0);
-const seasons=[2026,2025,2024,2023];
+const seasons=[2026,2025,2024,2023]; // newest available feed first
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 async function highs(p){
  for(const season of seasons){
