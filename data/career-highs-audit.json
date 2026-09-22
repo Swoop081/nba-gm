@@ -1,0 +1,9 @@
+{
+  "generatedAt": "2026-09-22T01:18:12.211Z",
+  "source": "https://raw.githubusercontent.com/llimllib/nba_data/main/data/player_game_logs.parquet",
+  "roster": 498,
+  "veterans": 429,
+  "rookies": 69,
+  "verifiedVeterans": 429,
+  "missing": []
+}
